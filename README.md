@@ -10,13 +10,14 @@ A free, tappable front-and-rear human muscle map as vector artwork: **male and f
 
 Use it for workout trackers, anatomy explainers, physio tools, or anything that needs "tap a muscle, get its name". The data is plain SVG paths plus JSON, so it can be rendered on any platform.
 
-> **Status: v1.0, schematic.** The shapes are a stylized fitness-app diagram, not a dissection-grade atlas. Names were reviewed against anatomy references, but some regions are group labels or are uncertain. See [Accuracy](#accuracy-and-limitations) before using it for anything medical or educational.
+> **Status: v1.1, schematic.** The shapes are a stylized fitness-app diagram, not a dissection-grade atlas. Names were reviewed against anatomy references, but some regions are group labels or are uncertain. See [Accuracy](#accuracy-and-limitations) before using it for anything medical or educational.
 
 ## What you get
 
 - **110 named panels per map**: 100 selectable muscle panels covering **31 muscles or muscle groups**, plus 10 non-muscle panels (kneecap, patellar tendon region, back of knee, IT band, Achilles tendon) that stay visible but are not tappable.
 - **Front and rear views** for both sexes. Anatomical left and right refer to the person, not the screen.
 - **Deltoid in three parts** (anterior, lateral, posterior) and the triceps, hamstring and calf heads drawn as separate panels.
+- **Transparent background**: the artwork has no backdrop, so it sits on any surface. Use a neutral light or dark one: the silhouette and muscle tones were drawn for near-white and near-black. To add a colour, set `[data-background] { fill: ... }` in CSS or `backgroundColor` in React Native.
 - **Heatmap**: `setColors({ lateral_deltoid: 0.8 })` colours muscles by value (or any CSS colour); the React Native component takes a `colors` prop.
 - **Selection logic**: single, multiple, or both-sides-together, with keyboard access (Enter/Space) and a name search in the demo.
 

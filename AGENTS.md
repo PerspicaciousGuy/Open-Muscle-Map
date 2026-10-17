@@ -69,6 +69,7 @@ If you run a path that is listed as not run, say so in your report with the resu
 
 ## 6. Common mistakes
 
+- Expecting a white backdrop: the artwork is transparent. Give it a neutral surface, or set `[data-background] { fill: ... }` / React Native `backgroundColor`.
 - Loading the SVG as `<img>`: nothing is tappable.
 - Creating the controller twice on the same SVG: call `destroy()` before rebinding (React effects in strict mode do this).
 - Counting `data-region-id` elements as muscles: there are 100 selectable panels but 31 muscles.

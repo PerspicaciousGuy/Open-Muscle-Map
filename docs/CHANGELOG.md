@@ -21,3 +21,7 @@ Added `setColors` / `clearColors` / `heatColor` (heatmap) to the controller, the
 ## 2026-10-17: fixes found by an integration in a React app
 
 The React guide used a default import of `muscle-map.js`, which has no ES exports and fails under the Vite dev server; it now imports the file for its side effect and uses `window.MuscleMap`. `scripts/verify-browser.mjs` built its server root from `URL.pathname`, which breaks on Windows; it now uses `fileURLToPath`. New `scripts/verify-react.mjs` and a CI job build and run the React guide with Vite.
+
+## 2026-10-17: v1.1.0 transparent background
+
+The background rectangle in both SVGs, the `background` field in both `*-map-data.json` files (`"none"`), the React Native default and the WebView pages' body are now transparent instead of `#fdfdfd`. Apps that relied on the white backdrop must set one: `[data-background] { fill: ... }` in CSS, `backgroundColor` in React Native, or a background on the WebView.

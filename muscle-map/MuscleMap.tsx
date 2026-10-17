@@ -15,7 +15,9 @@ export type MuscleMapProps = {
   /** Controlled keys, e.g. ['right:lateral_deltoid']; use both: with bilateral=true. */
   selectedKeys?: string[]; onChange?: (keys: string[]) => void;
   onMusclePress?: (region: MusclePress) => void;
-  activeColor?: string; backgroundColor?: string;
+  activeColor?: string;
+  /** Background fill; the artwork is transparent by default. */
+  backgroundColor?: string;
   /** Fill colour per muscleId (any RN colour string); selection still wins. Compute shades with your own ramp. */
   colors?: Record<string, string>;
 };
