@@ -101,6 +101,12 @@ try {
     await tap(m, 'male', 'trapezius');
     assert.equal(await m.evaluate(() => document.documentElement.scrollWidth > innerWidth), false, `${scheme}: horizontal scroll on phone`);
   }
+  // No scrollbars on code boxes or the tab row, on desktop or phone
+  for (const [w, h] of [[1360, 900], [390, 844]]) {
+    const v = await open(w, h);
+    const bad = await v.evaluate(() => [...document.querySelectorAll('pre, .tabs')].filter(e => e.scrollWidth > e.clientWidth + 1 && e.className !== 'tabs' || e.scrollHeight > e.clientHeight + 1 && e.className === 'tabs').map(e => (e.id || e.className || e.tagName)));
+    assert.deepEqual(bad, [], `scrollbars on ${bad.join(', ')} at ${w}px`);
+  }
   // Wider system fonts (Segoe UI, Roboto) must not push the layout past the viewport: simulate with letter-spacing
   for (const width of [320, 360, 390, 440]) {
     const m = await open(width, 800);

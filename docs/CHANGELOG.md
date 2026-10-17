@@ -31,3 +31,5 @@ The background rectangle in both SVGs, the `background` field in both `*-map-dat
 The demo site drops component borders (cards, buttons, inputs, code boxes, tags, table) in favour of soft shadows, in both themes.
 
 Softer shadows; phone nav no longer overflows below 380px with wide system fonts (GitHub and Guides links hide at 480px and 340px); `html{overflow-x:clip}` keeps the layout viewport at device width; browser checks now stress-test phone widths with widened text.
+
+Code boxes wrap long lines instead of scrolling sideways; scrollbars are hidden on code boxes and the tab row; the tab row no longer overflows by 1px (which showed a vertical scrollbar). Browser checks fail if a code box scrolls sideways.
