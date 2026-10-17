@@ -158,6 +158,20 @@
       "note": "Panel position is a schematic fitness-app region; it is not a dissection boundary."
     },
     {
+      "id": "iliopsoas",
+      "name": "Iliopsoas (hip flexors)",
+      "group": "hips",
+      "anatomicalNames": [
+        "Iliopsoas",
+        "Iliacus",
+        "Psoas major"
+      ],
+      "kind": "muscle",
+      "selectable": true,
+      "mappingPrecision": "schematic_region",
+      "note": "Front strap from the hip bone into the groin, just medial to the sartorius: the lateral floor of the femoral triangle. Iliacus and psoas major are drawn as one panel."
+    },
+    {
       "id": "hip_adductors",
       "name": "Hip adductors (inner thigh)",
       "group": "adductors",
@@ -167,7 +181,7 @@
       "kind": "muscle_group",
       "selectable": true,
       "mappingPrecision": "schematic_region",
-      "note": "Grouped inner-thigh region; the drawing does not isolate adductor longus, adductor magnus, or gracilis with reliable boundaries."
+      "note": "Inner-thigh panels: the small front panel beside the vastus medialis and the rear ovals (adductor magnus / gracilis). The drawing cannot separate pectineus, adductor longus, gracilis and magnus, so the label stays a group."
     },
     {
       "id": "sartorius",
@@ -276,7 +290,7 @@
       "kind": "muscle",
       "selectable": true,
       "mappingPrecision": "schematic_region",
-      "note": "Panel position is a schematic fitness-app region; it is not a dissection boundary."
+      "note": "Panel position is a schematic fitness-app region; it is not a dissection boundary. The broad rear panel below the gastrocnemius (subregion lower_central) is the soleus above its junction with the Achilles tendon."
     },
     {
       "id": "posterior_rotator_cuff",
@@ -422,7 +436,7 @@
       "kind": "tendon",
       "selectable": false,
       "mappingPrecision": "schematic_region",
-      "note": "Schematic lower posterior calf-to-heel tendon region; not a muscle. Excluded from muscle selection by default."
+      "note": "Narrow lower part of the central calf shape, from the soleus junction to the heel; a tendon, not a muscle."
     },
     {
       "id": "patellar_tendon_region",

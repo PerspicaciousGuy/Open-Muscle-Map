@@ -10,6 +10,8 @@ The muscle mappings are interpretations of the stylized artwork. These reference
 - [StatPearls — Brachialis Muscle](https://www.ncbi.nlm.nih.gov/books/NBK551630/): brachialis lies deeper than the biceps; surface position not stated.
 - [Wikipedia — Soleus muscle](https://en.wikipedia.org/wiki/Soleus_muscle): superficial in the posterior compartment, below the gastrocnemius.
 - [Wikipedia — Patellar tendon](https://en.wikipedia.org/wiki/Patellar_tendon): runs from the patella to the tibial tuberosity; visible below the kneecap.
+- [StatPearls — Femoral Triangle](https://www.ncbi.nlm.nih.gov/sites/books/NBK541140/): borders (inguinal ligament, sartorius laterally, adductor longus medially) and floor (iliopsoas laterally, pectineus and adductor longus medially); used for the iliopsoas and front adductor panels.
+- [Cadaveric Study of the Junction Point Where the Gastrocnemius Aponeurosis Joins the Soleus Aponeurosis](https://pmc.ncbi.nlm.nih.gov/articles/PMC5769028/): how the Achilles tendon forms from the gastrocnemius and soleus, and where it narrows; used to split the rear calf panel.
 - [BodySmart — Pectineus](https://www.getbodysmart.com/anterior-thigh-muscles/pectineus-muscle): adducts and flexes the thigh; anterior upper inner thigh.
 - [Anatomical and functional segments of the deltoid muscle](https://pmc.ncbi.nlm.nih.gov/articles/PMC3042752/): conventional anterior, middle/lateral, and posterior portions.
 

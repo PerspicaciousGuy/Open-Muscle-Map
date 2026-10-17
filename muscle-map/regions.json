@@ -994,20 +994,20 @@
         ]
       },
       {
-        "regionId": "male-front-right-hip_adductors-01",
-        "regionKey": "front-right-hip_adductors-01",
+        "regionId": "male-front-right-iliopsoas-01",
+        "regionKey": "front-right-iliopsoas-01",
         "sourceRegionId": "front-muscle-068",
-        "muscleId": "hip_adductors",
-        "muscleName": "Hip adductors (inner thigh)",
-        "muscleGroup": "adductors",
+        "muscleId": "iliopsoas",
+        "muscleName": "Iliopsoas (hip flexors)",
+        "muscleGroup": "hips",
         "side": "right",
         "view": "front",
         "sex": "male",
         "subregion": null,
-        "kind": "muscle_group",
+        "kind": "muscle",
         "selectable": true,
         "mappingPrecision": "schematic_region",
-        "selectionKey": "right:hip_adductors",
+        "selectionKey": "right:iliopsoas",
         "center": [
           284.36,
           596.9
@@ -1020,20 +1020,20 @@
         ]
       },
       {
-        "regionId": "male-front-left-hip_adductors-01",
-        "regionKey": "front-left-hip_adductors-01",
+        "regionId": "male-front-left-iliopsoas-01",
+        "regionKey": "front-left-iliopsoas-01",
         "sourceRegionId": "front-muscle-069",
-        "muscleId": "hip_adductors",
-        "muscleName": "Hip adductors (inner thigh)",
-        "muscleGroup": "adductors",
+        "muscleId": "iliopsoas",
+        "muscleName": "Iliopsoas (hip flexors)",
+        "muscleGroup": "hips",
         "side": "left",
         "view": "front",
         "sex": "male",
         "subregion": null,
-        "kind": "muscle_group",
+        "kind": "muscle",
         "selectable": true,
         "mappingPrecision": "schematic_region",
-        "selectionKey": "left:hip_adductors",
+        "selectionKey": "left:iliopsoas",
         "center": [
           349.6,
           596.93
@@ -2814,6 +2814,32 @@
         ]
       },
       {
+        "regionId": "male-rear-left-soleus-02",
+        "regionKey": "rear-left-soleus-02",
+        "sourceRegionId": "rear-muscle-108",
+        "muscleId": "soleus",
+        "muscleName": "Soleus",
+        "muscleGroup": "calves",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": "lower_central",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:soleus",
+        "center": [
+          862.97,
+          1012.84
+        ],
+        "bounds": [
+          846.69,
+          971.09,
+          876.17,
+          1063.01
+        ]
+      },
+      {
         "regionId": "male-rear-left-achilles_tendon-01",
         "regionKey": "rear-left-achilles_tendon-01",
         "sourceRegionId": "rear-muscle-108",
@@ -2829,14 +2855,40 @@
         "mappingPrecision": "schematic_region",
         "selectionKey": "left:achilles_tendon",
         "center": [
-          864.8,
-          1036.35
+          869.02,
+          1090.25
         ],
         "bounds": [
-          846.69,
-          971.09,
+          858.67,
+          1065.01,
           881.27,
           1114.05
+        ]
+      },
+      {
+        "regionId": "male-rear-right-soleus-02",
+        "regionKey": "rear-right-soleus-02",
+        "sourceRegionId": "rear-muscle-109",
+        "muscleId": "soleus",
+        "muscleName": "Soleus",
+        "muscleGroup": "calves",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": "lower_central",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:soleus",
+        "center": [
+          998.0,
+          1012.57
+        ],
+        "bounds": [
+          984.58,
+          970.07,
+          1014.61,
+          1063.04
         ]
       },
       {
@@ -2855,13 +2907,13 @@
         "mappingPrecision": "schematic_region",
         "selectionKey": "right:achilles_tendon",
         "center": [
-          995.99,
-          1036.17
+          991.36,
+          1090.19
         ],
         "bounds": [
           978.79,
-          970.07,
-          1014.61,
+          1065.04,
+          1001.8,
           1113.54
         ]
       }
@@ -3856,20 +3908,20 @@
         ]
       },
       {
-        "regionId": "female-front-right-hip_adductors-01",
-        "regionKey": "front-right-hip_adductors-01",
+        "regionId": "female-front-right-iliopsoas-01",
+        "regionKey": "front-right-iliopsoas-01",
         "sourceRegionId": "front-muscle-070",
-        "muscleId": "hip_adductors",
-        "muscleName": "Hip adductors (inner thigh)",
-        "muscleGroup": "adductors",
+        "muscleId": "iliopsoas",
+        "muscleName": "Iliopsoas (hip flexors)",
+        "muscleGroup": "hips",
         "side": "right",
         "view": "front",
         "sex": "female",
         "subregion": null,
-        "kind": "muscle_group",
+        "kind": "muscle",
         "selectable": true,
         "mappingPrecision": "schematic_region",
-        "selectionKey": "right:hip_adductors",
+        "selectionKey": "right:iliopsoas",
         "center": [
           281.07,
           600.1
@@ -3882,20 +3934,20 @@
         ]
       },
       {
-        "regionId": "female-front-left-hip_adductors-01",
-        "regionKey": "front-left-hip_adductors-01",
+        "regionId": "female-front-left-iliopsoas-01",
+        "regionKey": "front-left-iliopsoas-01",
         "sourceRegionId": "front-muscle-071",
-        "muscleId": "hip_adductors",
-        "muscleName": "Hip adductors (inner thigh)",
-        "muscleGroup": "adductors",
+        "muscleId": "iliopsoas",
+        "muscleName": "Iliopsoas (hip flexors)",
+        "muscleGroup": "hips",
         "side": "left",
         "view": "front",
         "sex": "female",
         "subregion": null,
-        "kind": "muscle_group",
+        "kind": "muscle",
         "selectable": true,
         "mappingPrecision": "schematic_region",
-        "selectionKey": "left:hip_adductors",
+        "selectionKey": "left:iliopsoas",
         "center": [
           348.11,
           599.72
@@ -5650,6 +5702,32 @@
         ]
       },
       {
+        "regionId": "female-rear-left-soleus-02",
+        "regionKey": "rear-left-soleus-02",
+        "sourceRegionId": "rear-muscle-107",
+        "muscleId": "soleus",
+        "muscleName": "Soleus",
+        "muscleGroup": "calves",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": "lower_central",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:soleus",
+        "center": [
+          873.05,
+          1011.5
+        ],
+        "bounds": [
+          856.16,
+          969.9,
+          888.42,
+          1066.57
+        ]
+      },
+      {
         "regionId": "female-rear-left-achilles_tendon-01",
         "regionKey": "rear-left-achilles_tendon-01",
         "sourceRegionId": "rear-muscle-107",
@@ -5665,14 +5743,40 @@
         "mappingPrecision": "schematic_region",
         "selectionKey": "left:achilles_tendon",
         "center": [
-          874.35,
-          1031.69
+          878.28,
+          1092.44
         ],
         "bounds": [
-          856.16,
-          969.9,
+          869.35,
+          1068.57,
           889.14,
           1113.53
+        ]
+      },
+      {
+        "regionId": "female-rear-right-soleus-02",
+        "regionKey": "rear-right-soleus-02",
+        "sourceRegionId": "rear-muscle-108",
+        "muscleId": "soleus",
+        "muscleName": "Soleus",
+        "muscleGroup": "calves",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": "lower_central",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:soleus",
+        "center": [
+          997.77,
+          1012.11
+        ],
+        "bounds": [
+          982.93,
+          970.12,
+          1015.08,
+          1067.55
         ]
       },
       {
@@ -5691,13 +5795,13 @@
         "mappingPrecision": "schematic_region",
         "selectionKey": "right:achilles_tendon",
         "center": [
-          996.42,
-          1032.4
+          992.39,
+          1092.79
         ],
         "bounds": [
           981.98,
-          970.12,
-          1015.08,
+          1069.55,
+          1002.43,
           1114.34
         ]
       },

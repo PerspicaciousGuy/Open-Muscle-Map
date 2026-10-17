@@ -10,6 +10,17 @@ Name corrections after checking the panels against anatomy sources (applied to m
 
 Region ids of these 6 panels per sex changed accordingly. Counts per sex: 110 panels, 100 selectable, 10 non-muscle, 31 muscle ids.
 
+## 2026-10-17: iliopsoas and lower soleus
+
+Two corrections after a panel-by-panel review, applied to the male and female maps. Every muscle is now tappable where it is drawn.
+
+| Panel | Was | Now | Why |
+|---|---|---|---|
+| Front, upper strap from the hip bone into the groin (`hip_adductors-01`) | Hip adductors | Iliopsoas (hip flexors), new `muscleId` `iliopsoas`, new region ids `front-left/right-iliopsoas-01` | It lies directly medial to the sartorius panel: the lateral floor of the femoral triangle is the iliopsoas; the adductors arise from the pubis (StatPearls, Femoral Triangle). The small inner-thigh panel (`hip_adductors-02`) stays the adductors. |
+| Rear, central calf shape (`achilles_tendon-01`) | One non-selectable Achilles tendon panel from just below the gastrocnemius to the heel | Split at the shape's narrowest point: the broad upper part is a new selectable soleus panel (`rear-left/right-soleus-02`, subregion `lower_central`); the narrow lower part keeps the `achilles_tendon-01` key | The tendon narrows from about 6.6 cm at the gastrocnemius to about 2.9 cm at the soleus junction (cadaveric study in `SOURCES.md`), so the broad upper part is soleus. Before, tapping the lower calf did nothing. The cut leaves the artwork's usual ~2-unit gap with rounded ends. |
+
+Counts per sex: 112 panels, 102 selectable, 10 non-muscle, 32 muscle ids (37 catalog entries). Region ids changed for the 2 iliopsoas panels per sex; 2 soleus panels per sex were added; all other keys are unchanged. `docs/preview-*.png` and `site/og.png` were not regenerated (the changes are small: one renamed panel, one new seam on each calf).
+
 ## 2026-10-17: verification pass
 
 No geometry or name changes. Re-checked the four uncertain entries (brachialis, hip adductors, soleus, patellar tendon region) against the sources in `SOURCES.md`: three moved to partly verified, brachialis stays uncertain. Added a male/female consistency check to `scripts/verify-data.mjs`.
