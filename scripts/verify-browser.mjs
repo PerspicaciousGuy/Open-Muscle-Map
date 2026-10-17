@@ -101,6 +101,16 @@ try {
     await tap(m, 'male', 'trapezius');
     assert.equal(await m.evaluate(() => document.documentElement.scrollWidth > innerWidth), false, `${scheme}: horizontal scroll on phone`);
   }
+  // Wider system fonts (Segoe UI, Roboto) must not push the layout past the viewport: simulate with letter-spacing
+  for (const width of [320, 360, 390, 440]) {
+    const m = await open(width, 800);
+    await m.addStyleTag({ content: '*{letter-spacing:.04em !important}' });
+    assert.equal(await m.evaluate(() => document.documentElement.scrollWidth > innerWidth), false, `wide font: horizontal scroll at ${width}px`);
+  }
+  // The sticky nav must keep sticking (overflow rules on html/body can silently break it)
+  const s = await open(390, 800);
+  await s.evaluate(() => scrollTo({ top: 900, behavior: 'instant' }));
+  assert.equal(await s.evaluate(() => Math.round(document.querySelector('nav').getBoundingClientRect().top)), 0, 'nav stays stuck to the top');
   assert.deepEqual(problems, [], 'console or page errors');
   console.log('OK: browser checks passed');
 } finally {

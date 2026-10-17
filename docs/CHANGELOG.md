@@ -29,3 +29,5 @@ The background rectangle in both SVGs, the `background` field in both `*-map-dat
 ## 2026-10-17: site restyle
 
 The demo site drops component borders (cards, buttons, inputs, code boxes, tags, table) in favour of soft shadows, in both themes.
+
+Softer shadows; phone nav no longer overflows below 380px with wide system fonts (GitHub and Guides links hide at 480px and 340px); `html{overflow-x:clip}` keeps the layout viewport at device width; browser checks now stress-test phone widths with widened text.
