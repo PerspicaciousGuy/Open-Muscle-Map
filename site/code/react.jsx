@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import MuscleMap from './muscle-map/muscle-map.js';
+import './muscle-map/muscle-map.js';        // classic script: sets window.MuscleMap, has no ES exports
 import maleSvg from './muscle-map/male-muscle-map.svg?raw'; // Vite; use your bundler's raw-text import
 
 export default function BodyMap({ onSelect }) {
@@ -7,7 +7,7 @@ export default function BodyMap({ onSelect }) {
 
   useEffect(() => {
     host.current.innerHTML = maleSvg;
-    const map = MuscleMap.createMuscleMap(host.current.querySelector('svg'), {
+    const map = window.MuscleMap.createMuscleMap(host.current.querySelector('svg'), {
       multiple: true,
       onSelect: region => onSelect?.(region)   // region.muscleId, region.side, region.selected
     });

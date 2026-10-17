@@ -17,3 +17,7 @@ No geometry or name changes. Re-checked the four uncertain entries (brachialis, 
 ## 2026-10-17: v1.0.0
 
 Added `setColors` / `clearColors` / `heatColor` (heatmap) to the controller, the `colors` prop to the React Native component, hover and focus name labels and a heatmap toggle in the demo, Open Graph tags with a share image, contributing docs and issue templates. Workflow actions bumped to their Node 24 majors.
+
+## 2026-10-17: fixes found by an integration in a React app
+
+The React guide used a default import of `muscle-map.js`, which has no ES exports and fails under the Vite dev server; it now imports the file for its side effect and uses `window.MuscleMap`. `scripts/verify-browser.mjs` built its server root from `URL.pathname`, which breaks on Windows; it now uses `fileURLToPath`. New `scripts/verify-react.mjs` and a CI job build and run the React guide with Vite.

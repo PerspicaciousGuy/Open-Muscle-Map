@@ -4,12 +4,13 @@ import { execFileSync } from 'node:child_process';
 import { createServer } from 'node:http';
 import { readFileSync, existsSync } from 'node:fs';
 import { extname, join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
 
 execFileSync('node', ['scripts/build-site.mjs'], { stdio: 'inherit' });
 const { chromium } = await import(process.env.PLAYWRIGHT_PATH || 'playwright');
 
-const root = new URL('../_site/', import.meta.url).pathname;
+const root = fileURLToPath(new URL('../_site/', import.meta.url));
 const types = { '.html': 'text/html', '.js': 'text/javascript', '.json': 'application/json', '.svg': 'image/svg+xml' };
 const server = createServer((req, res) => {
   const file = join(root, req.url.split('?')[0].replace(/\/$/, '/index.html'));

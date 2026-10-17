@@ -45,11 +45,12 @@ Browser checks (needs `npm install --no-save playwright && npx playwright instal
 
 ```bash
 node scripts/verify-browser.mjs   # selection modes, keyboard, guide snippet, phone layout, no console errors
+node scripts/verify-react.mjs     # React guide built with Vite and tapped (needs network for npm install)
 ```
 
 Then verify the integration in the host app:
 
-- **Web / React:** open the page over HTTP (`fetch()` fails from `file://`). Tap a muscle: the `onSelect` payload has the expected `muscleId` and `side`. Tap a front-view and a rear-view panel of the same muscle: both highlight. Press Tab to a region, then Enter: it selects. Press Escape: it clears. Check the browser console is clean.
+- **Web / React:** `muscle-map.js` is a classic script with no ES exports: import it for its side effect and use `window.MuscleMap` (a default import fails under the Vite dev server). Open the page over HTTP (`fetch()` fails from `file://`). Tap a muscle: the `onSelect` payload has the expected `muscleId` and `side`. Tap a front-view and a rear-view panel of the same muscle: both highlight. Press Tab to a region, then Enter: it selects. Press Escape: it clears. Check the browser console is clean.
 - **React Native:** `npx tsc --noEmit` passes (enable `resolveJsonModule`). Run on a simulator, tap, and log `region.muscleId`.
 - **SwiftUI:** the snippet must compile for an iOS target (CI runs `xcrun --sdk iphonesimulator swiftc -typecheck`). Run in the simulator: the `muscleMap` handler receives `type == "musclemap:select"`. Confirm `male-webview.html` is in the app bundle's resources, or nothing loads.
 - **Android:** the page must be loaded from assets; confirm `evaluateJavascript` that defines `window.ReactNativeWebView` runs after page load, then tap and check the Kotlin callback.
@@ -60,7 +61,7 @@ Then verify the integration in the host app:
 |---|---|
 | Data consistency, controller, JavaScript guide, demo site | Tested in headless Chromium by `scripts/verify-*.mjs` (CI: `.github/workflows/verify.yml`) |
 | `MuscleMap.tsx` and the React Native guide | Type-checked in CI; not run on a device |
-| React guide | Not run in a React app |
+| React guide | Built with Vite and run under both the production build and the dev server in headless Chromium by `scripts/verify-react.mjs` (CI: `verify.yml`); not run in other bundlers or frameworks |
 | SwiftUI guide | Compiled by `.github/workflows/verify-swift.yml` once it has run; not run in a simulator |
 | Android guide | Compiled against the Android SDK by `verify.yml` once it has run; not run on a device |
 

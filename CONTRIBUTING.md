@@ -13,6 +13,7 @@ Use the "Wrong muscle name" issue template. Give the `regionId` (shown in the de
 node scripts/verify-data.mjs
 npm install --no-save playwright && npx playwright install chromium
 node scripts/verify-browser.mjs
+node scripts/verify-react.mjs   # builds the React guide with Vite; needs network
 ```
 
 CI (`.github/workflows/verify.yml`) runs the same checks, type-checks the React Native component and compiles the Android and SwiftUI guides.

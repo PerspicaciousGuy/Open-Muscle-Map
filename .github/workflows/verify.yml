@@ -22,6 +22,17 @@ jobs:
       - run: npm install --no-save playwright && npx playwright install --with-deps chromium
       - run: node scripts/verify-browser.mjs
 
+  react-vite:
+    name: Build and run the React guide with Vite
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - run: npm install --no-save playwright && npx playwright install --with-deps chromium
+      - run: node scripts/verify-react.mjs
+
   react-native-types:
     name: Type-check the React Native component and guide
     runs-on: ubuntu-latest
