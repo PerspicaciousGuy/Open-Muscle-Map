@@ -14,7 +14,7 @@ Use it for workout trackers, anatomy explainers, physio tools, or anything that 
 
 ## What you get
 
-- **110 named panels per map**: 100 selectable muscle panels covering **31 muscles or muscle groups**, plus 10 non-muscle panels (kneecap, patellar tendon region, back of knee, IT band, Achilles tendon) that stay visible but are not tappable.
+- **112 named panels per map**: 102 selectable muscle panels covering **32 muscles or muscle groups**, plus 10 non-muscle panels (kneecap, patellar tendon region, back of knee, IT band, Achilles tendon) that stay visible but are not tappable.
 - **Front and rear views** for both sexes. Anatomical left and right refer to the person, not the screen.
 - **Deltoid in three parts** (anterior, lateral, posterior) and the triceps, hamstring and calf heads drawn as separate panels.
 - **Transparent background**: the artwork has no backdrop, so it sits on any surface. Use a neutral light or dark one: the silhouette and muscle tones were drawn for near-white and near-black. To add a colour, set `[data-background] { fill: ... }` in CSS or `backgroundColor` in React Native.
@@ -43,7 +43,7 @@ Key files inside `muscle-map/`:
 - `male-muscle-map.svg`, `female-muscle-map.svg`: the artwork with semantic `data-*` attributes, titles and focus targets.
 - `male-map-data.json`, `female-map-data.json`: the same paths, transforms and gradients in a renderer-friendly format.
 - `regions.json`: every panel's name, ID, side, view, selection key, centre and bounds.
-- `muscles.json`: the 36-entry catalog (31 selectable muscles/groups plus non-muscle structures) with names, anatomical terms and notes.
+- `muscles.json`: the 37-entry catalog (32 selectable muscles/groups plus non-muscle structures) with names, anatomical terms and notes.
 
 ## Use it
 
@@ -106,7 +106,7 @@ Example region ID: `male-front-right-lateral_deltoid-01`.
 
 - The artwork is a **schematic fitness diagram**. Outlines do not follow exact surface anatomy, and every panel is marked `mappingPrecision: schematic_region`.
 - Where the drawing cannot separate muscles, regions carry **group labels**: posterior rotator cuff, forearm flexors/extensors, hip adductors, medial hamstrings, erector spinae and the peroneal group. Deep muscles that the drawing does not show are not represented.
-- The male map was reviewed panel by panel against anatomy references: 14 of 36 catalog entries are source-backed, 5 partly verified, 16 likely and 1 uncertain (brachialis). Details and reasons are in [`docs/VERIFICATION.md`](docs/VERIFICATION.md).
+- The male map was reviewed panel by panel against anatomy references: 14 of 37 catalog entries are source-backed, 6 partly verified, 16 likely and 1 uncertain (brachialis). Details and reasons are in [`docs/VERIFICATION.md`](docs/VERIFICATION.md).
 - The **female map has the same panel keys, muscle IDs and selectability as the male map** (checked automatically). Its drawing was compared visually for the uncertain muscles, but the anatomy sources were not checked against it separately.
 - Not medical or training advice.
 

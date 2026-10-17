@@ -2,7 +2,7 @@
 
 Smooth male and female diagrams with muscle names, stable region IDs, anatomical left/right metadata, and accessible tap targets.
 
-Each map contains **110 named panels: 100 selectable muscle panels and 10 non-muscle panels**, covering **31 named muscles or muscle groups**. Several panels can represent the same muscle. There are not 100 different muscles.
+Each map contains **112 named panels: 102 selectable muscle panels and 10 non-muscle panels**, covering **32 named muscles or muscle groups**. Several panels can represent the same muscle. There are not 100 different muscles.
 
 ## Try it
 

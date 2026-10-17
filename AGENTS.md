@@ -4,7 +4,7 @@ You are adding a tappable muscle map to someone's app. Follow this file literall
 
 ## 1. Facts you must not get wrong
 
-- **Join key:** `muscleId` (for example `lateral_deltoid`). It is identical on male and female, front and rear. Map it to the app's own data. The full list is `muscle-map/muscles.json`; 31 are selectable (`selectable: true`), 5 are joints, fascia or tendons and are not.
+- **Join key:** `muscleId` (for example `lateral_deltoid`). It is identical on male and female, front and rear. Map it to the app's own data. The full list is `muscle-map/muscles.json`; 32 are selectable (`selectable: true`), 5 are joints, fascia or tendons and are not.
 - **Selection key:** `side:muscleId` (`right:lateral_deltoid`). In bilateral mode it is `both:muscleId`.
 - **Sides are the person's, not the screen's.** Anatomical right is screen-left in the front view and screen-right in the rear view. The `side` field already accounts for this. Never mirror an SVG or swap sides.
 - **One muscle is many panels.** Several drawn tiles share one `muscleId` (abs, triceps, glutes). Count muscles by `muscleId`, never by tile.
@@ -72,7 +72,7 @@ If you run a path that is listed as not run, say so in your report with the resu
 - Expecting a white backdrop: the artwork is transparent. Give it a neutral surface, or set `[data-background] { fill: ... }` / React Native `backgroundColor`.
 - Loading the SVG as `<img>`: nothing is tappable.
 - Creating the controller twice on the same SVG: call `destroy()` before rebinding (React effects in strict mode do this).
-- Counting `data-region-id` elements as muscles: there are 100 selectable panels but 31 muscles.
+- Counting `data-region-id` elements as muscles: there are 102 selectable panels but 32 muscles.
 - Treating `selectable: false` entries (knee, back of knee, iliotibial band, Achilles) as muscles.
 - Hard-coding hex colors in the SVG instead of the CSS variables.
 - Using `@main` in a CDN URL in production: pin a tag or commit.
