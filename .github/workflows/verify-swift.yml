@@ -1,0 +1,17 @@
+name: Verify Swift guide
+
+# macOS minutes cost more than Linux ones, so this only runs when the Swift snippet changes, or on demand.
+on:
+  push:
+    paths: [site/code/swiftui.swift, .github/workflows/verify-swift.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  swift:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v7
+      - run: xcrun --sdk iphonesimulator swiftc -typecheck -target arm64-apple-ios17.0-simulator site/code/swiftui.swift

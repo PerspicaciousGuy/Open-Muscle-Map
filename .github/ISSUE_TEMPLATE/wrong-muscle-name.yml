@@ -1,0 +1,30 @@
+name: Wrong muscle name
+description: A panel is labelled with the wrong muscle or group
+labels: [accuracy]
+body:
+  - type: input
+    id: region
+    attributes:
+      label: Region ID
+      description: For example male-front-right-lateral_deltoid-01 (shown in the demo's "What your app receives" box)
+    validations:
+      required: true
+  - type: input
+    id: current
+    attributes:
+      label: Current name
+    validations:
+      required: true
+  - type: input
+    id: proposed
+    attributes:
+      label: What it should be
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: Link or citation (textbook, anatomy reference page)
+    validations:
+      required: true

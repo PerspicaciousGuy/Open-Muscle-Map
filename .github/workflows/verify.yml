@@ -1,0 +1,57 @@
+name: Verify
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  web:
+    name: Data and browser checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - run: node scripts/verify-data.mjs
+      - run: npm install --no-save playwright && npx playwright install --with-deps chromium
+      - run: node scripts/verify-browser.mjs
+
+  react-native-types:
+    name: Type-check the React Native component and guide
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+      - name: Compile
+        run: |
+          mkdir /tmp/rn && cd /tmp/rn
+          cp "$GITHUB_WORKSPACE"/muscle-map/{MuscleMap.tsx,muscle-map.d.ts,male-map-data.json,female-map-data.json} .
+          sed "s#./muscle-map/MuscleMap#./MuscleMap#" "$GITHUB_WORKSPACE/site/code/react-native.tsx" > react-native.tsx
+          echo '{"private":true}' > package.json
+          echo '{"compilerOptions":{"strict":true,"jsx":"react-jsx","module":"esnext","moduleResolution":"bundler","resolveJsonModule":true,"noEmit":true,"skipLibCheck":true,"target":"es2020","esModuleInterop":true},"files":["MuscleMap.tsx","react-native.tsx"]}' > tsconfig.json
+          npm install --no-audit --no-fund typescript react @types/react react-native-svg
+          npx tsc -p .
+
+
+  kotlin:
+    name: Compile the Android guide
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Compile against the Android SDK
+        run: |
+          JAR=$(ls -d "$ANDROID_HOME"/platforms/android-*/android.jar | sort -V | tail -1)
+          echo "Using $JAR"
+          curl -sSL -o /tmp/kotlin.zip https://github.com/JetBrains/kotlin/releases/download/v2.0.21/kotlin-compiler-2.0.21.zip
+          unzip -q /tmp/kotlin.zip -d /tmp
+          /tmp/kotlinc/bin/kotlinc -cp "$JAR" site/code/android.kt -d /tmp/out
+          test -f /tmp/out/MuscleBridge.class && test -f /tmp/out/AndroidKt.class || { ls -R /tmp/out; exit 1; }
+          ls /tmp/out

@@ -1,0 +1,18 @@
+name: Bug
+description: Something does not work in the controller, component or demo
+labels: [bug]
+body:
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options: [Browser controller, React Native component, WebView page, Demo site, Data files]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what you expected
+      description: Include the platform, browser or OS version, and the smallest code that shows it.
+    validations:
+      required: true

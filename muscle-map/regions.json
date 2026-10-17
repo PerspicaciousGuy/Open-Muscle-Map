@@ -1,0 +1,5732 @@
+{
+  "schemaVersion": "1.0.0",
+  "coordinateSystem": "SVG user units; viewBox 0 0 1254 1254",
+  "sideConvention": "The depicted person’s anatomical left/right. Front screen-left is right; rear screen-left is left.",
+  "mappingNote": "These are semantic mappings of the approved schematic artwork, not medically exact muscle boundaries. Adjacent tiles can represent one muscle. Non-muscle structures are named but excluded from muscle selection by default.",
+  "regions": {
+    "male": [
+      {
+        "regionId": "male-front-right-sternocleidomastoid-01",
+        "regionKey": "front-right-sternocleidomastoid-01",
+        "sourceRegionId": "front-muscle-004",
+        "muscleId": "sternocleidomastoid",
+        "muscleName": "Sternocleidomastoid",
+        "muscleGroup": "neck",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:sternocleidomastoid",
+        "center": [
+          302.68,
+          218.6
+        ],
+        "bounds": [
+          287.84,
+          185.17,
+          316.6,
+          254.48
+        ]
+      },
+      {
+        "regionId": "male-front-left-sternocleidomastoid-01",
+        "regionKey": "front-left-sternocleidomastoid-01",
+        "sourceRegionId": "front-muscle-005",
+        "muscleId": "sternocleidomastoid",
+        "muscleName": "Sternocleidomastoid",
+        "muscleGroup": "neck",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:sternocleidomastoid",
+        "center": [
+          333.41,
+          219.07
+        ],
+        "bounds": [
+          319.17,
+          186.07,
+          348.6,
+          255.05
+        ]
+      },
+      {
+        "regionId": "male-front-right-sternocleidomastoid-02",
+        "regionKey": "front-right-sternocleidomastoid-02",
+        "sourceRegionId": "front-muscle-006",
+        "muscleId": "sternocleidomastoid",
+        "muscleName": "Sternocleidomastoid",
+        "muscleGroup": "neck",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:sternocleidomastoid",
+        "center": [
+          285.95,
+          234.87
+        ],
+        "bounds": [
+          267.98,
+          201.25,
+          303.59,
+          256.29
+        ]
+      },
+      {
+        "regionId": "male-front-left-sternocleidomastoid-02",
+        "regionKey": "front-left-sternocleidomastoid-02",
+        "sourceRegionId": "front-muscle-007",
+        "muscleId": "sternocleidomastoid",
+        "muscleName": "Sternocleidomastoid",
+        "muscleGroup": "neck",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:sternocleidomastoid",
+        "center": [
+          350.18,
+          234.94
+        ],
+        "bounds": [
+          332.15,
+          201.34,
+          368.43,
+          256.26
+        ]
+      },
+      {
+        "regionId": "male-front-left-trapezius-01",
+        "regionKey": "front-left-trapezius-01",
+        "sourceRegionId": "front-muscle-008",
+        "muscleId": "trapezius",
+        "muscleName": "Trapezius",
+        "muscleGroup": "upper_back",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": "upper",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:trapezius",
+        "center": [
+          377.88,
+          229.68
+        ],
+        "bounds": [
+          359.25,
+          210.13,
+          400.66,
+          242.65
+        ]
+      },
+      {
+        "regionId": "male-front-right-trapezius-01",
+        "regionKey": "front-right-trapezius-01",
+        "sourceRegionId": "front-muscle-009",
+        "muscleId": "trapezius",
+        "muscleName": "Trapezius",
+        "muscleGroup": "upper_back",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": "upper",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:trapezius",
+        "center": [
+          257.81,
+          229.75
+        ],
+        "bounds": [
+          234.51,
+          211.06,
+          276.24,
+          242.53
+        ]
+      },
+      {
+        "regionId": "male-front-left-anterior_deltoid-01",
+        "regionKey": "front-left-anterior_deltoid-01",
+        "sourceRegionId": "front-muscle-010",
+        "muscleId": "anterior_deltoid",
+        "muscleName": "Anterior deltoid",
+        "muscleGroup": "shoulders",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:anterior_deltoid",
+        "center": [
+          428.51,
+          275.36
+        ],
+        "bounds": [
+          396.13,
+          242.86,
+          450.46,
+          321.11
+        ]
+      },
+      {
+        "regionId": "male-front-right-anterior_deltoid-01",
+        "regionKey": "front-right-anterior_deltoid-01",
+        "sourceRegionId": "front-muscle-013",
+        "muscleId": "anterior_deltoid",
+        "muscleName": "Anterior deltoid",
+        "muscleGroup": "shoulders",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:anterior_deltoid",
+        "center": [
+          204.77,
+          276.47
+        ],
+        "bounds": [
+          181.42,
+          243.21,
+          238.04,
+          322.83
+        ]
+      },
+      {
+        "regionId": "male-front-right-lateral_deltoid-01",
+        "regionKey": "front-right-lateral_deltoid-01",
+        "sourceRegionId": "front-muscle-016",
+        "muscleId": "lateral_deltoid",
+        "muscleName": "Lateral deltoid",
+        "muscleGroup": "shoulders",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:lateral_deltoid",
+        "center": [
+          170.55,
+          296.01
+        ],
+        "bounds": [
+          155.75,
+          249.95,
+          191.38,
+          341.09
+        ]
+      },
+      {
+        "regionId": "male-front-left-lateral_deltoid-01",
+        "regionKey": "front-left-lateral_deltoid-01",
+        "sourceRegionId": "front-muscle-017",
+        "muscleId": "lateral_deltoid",
+        "muscleName": "Lateral deltoid",
+        "muscleGroup": "shoulders",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:lateral_deltoid",
+        "center": [
+          461.86,
+          295.59
+        ],
+        "bounds": [
+          442.5,
+          249.4,
+          476.45,
+          340.13
+        ]
+      },
+      {
+        "regionId": "male-front-right-pectoralis_major-01",
+        "regionKey": "front-right-pectoralis_major-01",
+        "sourceRegionId": "front-muscle-020",
+        "muscleId": "pectoralis_major",
+        "muscleName": "Pectoralis major (chest)",
+        "muscleGroup": "chest",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:pectoralis_major",
+        "center": [
+          267.36,
+          304.03
+        ],
+        "bounds": [
+          213.88,
+          252.7,
+          314.99,
+          352.99
+        ]
+      },
+      {
+        "regionId": "male-front-left-pectoralis_major-01",
+        "regionKey": "front-left-pectoralis_major-01",
+        "sourceRegionId": "front-muscle-021",
+        "muscleId": "pectoralis_major",
+        "muscleName": "Pectoralis major (chest)",
+        "muscleGroup": "chest",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:pectoralis_major",
+        "center": [
+          367.17,
+          304.02
+        ],
+        "bounds": [
+          318.9,
+          252.72,
+          420.75,
+          353.2
+        ]
+      },
+      {
+        "regionId": "male-front-right-biceps_brachii-01",
+        "regionKey": "front-right-biceps_brachii-01",
+        "sourceRegionId": "front-muscle-028",
+        "muscleId": "biceps_brachii",
+        "muscleName": "Biceps brachii",
+        "muscleGroup": "upper_arms",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:biceps_brachii",
+        "center": [
+          180.88,
+          381.84
+        ],
+        "bounds": [
+          157.29,
+          327.12,
+          204.92,
+          437.46
+        ]
+      },
+      {
+        "regionId": "male-front-left-biceps_brachii-01",
+        "regionKey": "front-left-biceps_brachii-01",
+        "sourceRegionId": "front-muscle-029",
+        "muscleId": "biceps_brachii",
+        "muscleName": "Biceps brachii",
+        "muscleGroup": "upper_arms",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:biceps_brachii",
+        "center": [
+          452.16,
+          381.66
+        ],
+        "bounds": [
+          428.45,
+          328.08,
+          475.33,
+          438.29
+        ]
+      },
+      {
+        "regionId": "male-front-right-serratus_anterior-01",
+        "regionKey": "front-right-serratus_anterior-01",
+        "sourceRegionId": "front-muscle-034",
+        "muscleId": "serratus_anterior",
+        "muscleName": "Serratus anterior",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:serratus_anterior",
+        "center": [
+          237.98,
+          360.42
+        ],
+        "bounds": [
+          220.2,
+          341.74,
+          257.09,
+          378.17
+        ]
+      },
+      {
+        "regionId": "male-front-left-serratus_anterior-01",
+        "regionKey": "front-left-serratus_anterior-01",
+        "sourceRegionId": "front-muscle-035",
+        "muscleId": "serratus_anterior",
+        "muscleName": "Serratus anterior",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:serratus_anterior",
+        "center": [
+          396.52,
+          360.07
+        ],
+        "bounds": [
+          377.97,
+          341.41,
+          413.87,
+          377.69
+        ]
+      },
+      {
+        "regionId": "male-front-right-brachialis-01",
+        "regionKey": "front-right-brachialis-01",
+        "sourceRegionId": "front-muscle-036",
+        "muscleId": "brachialis",
+        "muscleName": "Brachialis",
+        "muscleGroup": "upper_arms",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:brachialis",
+        "center": [
+          155.5,
+          374.42
+        ],
+        "bounds": [
+          148.73,
+          348.67,
+          163.94,
+          403.11
+        ]
+      },
+      {
+        "regionId": "male-front-left-brachialis-01",
+        "regionKey": "front-left-brachialis-01",
+        "sourceRegionId": "front-muscle-037",
+        "muscleId": "brachialis",
+        "muscleName": "Brachialis",
+        "muscleGroup": "upper_arms",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:brachialis",
+        "center": [
+          477.17,
+          374.41
+        ],
+        "bounds": [
+          469.2,
+          349.03,
+          483.62,
+          401.99
+        ]
+      },
+      {
+        "regionId": "male-front-right-rectus_abdominis-01",
+        "regionKey": "front-right-rectus_abdominis-01",
+        "sourceRegionId": "front-muscle-038",
+        "muscleId": "rectus_abdominis",
+        "muscleName": "Rectus abdominis (abs)",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": "upper",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:rectus_abdominis",
+        "center": [
+          288.51,
+          377.71
+        ],
+        "bounds": [
+          262.5,
+          354.01,
+          315.5,
+          403.42
+        ]
+      },
+      {
+        "regionId": "male-front-left-rectus_abdominis-01",
+        "regionKey": "front-left-rectus_abdominis-01",
+        "sourceRegionId": "front-muscle-039",
+        "muscleId": "rectus_abdominis",
+        "muscleName": "Rectus abdominis (abs)",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": "upper",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:rectus_abdominis",
+        "center": [
+          345.66,
+          377.44
+        ],
+        "bounds": [
+          318.88,
+          353.85,
+          371.62,
+          403.53
+        ]
+      },
+      {
+        "regionId": "male-front-right-serratus_anterior-02",
+        "regionKey": "front-right-serratus_anterior-02",
+        "sourceRegionId": "front-muscle-040",
+        "muscleId": "serratus_anterior",
+        "muscleName": "Serratus anterior",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:serratus_anterior",
+        "center": [
+          240.96,
+          385.0
+        ],
+        "bounds": [
+          222.48,
+          366.38,
+          259.04,
+          402.67
+        ]
+      },
+      {
+        "regionId": "male-front-left-serratus_anterior-02",
+        "regionKey": "front-left-serratus_anterior-02",
+        "sourceRegionId": "front-muscle-041",
+        "muscleId": "serratus_anterior",
+        "muscleName": "Serratus anterior",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:serratus_anterior",
+        "center": [
+          392.95,
+          384.82
+        ],
+        "bounds": [
+          374.68,
+          366.37,
+          411.51,
+          402.34
+        ]
+      },
+      {
+        "regionId": "male-front-right-serratus_anterior-03",
+        "regionKey": "front-right-serratus_anterior-03",
+        "sourceRegionId": "front-muscle-042",
+        "muscleId": "serratus_anterior",
+        "muscleName": "Serratus anterior",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:serratus_anterior",
+        "center": [
+          244.84,
+          410.85
+        ],
+        "bounds": [
+          225.92,
+          390.59,
+          262.0,
+          430.18
+        ]
+      },
+      {
+        "regionId": "male-front-left-serratus_anterior-03",
+        "regionKey": "front-left-serratus_anterior-03",
+        "sourceRegionId": "front-muscle-043",
+        "muscleId": "serratus_anterior",
+        "muscleName": "Serratus anterior",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:serratus_anterior",
+        "center": [
+          388.85,
+          410.84
+        ],
+        "bounds": [
+          371.39,
+          390.36,
+          408.02,
+          430.29
+        ]
+      },
+      {
+        "regionId": "male-front-right-rectus_abdominis-02",
+        "regionKey": "front-right-rectus_abdominis-02",
+        "sourceRegionId": "front-muscle-046",
+        "muscleId": "rectus_abdominis",
+        "muscleName": "Rectus abdominis (abs)",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": "middle",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:rectus_abdominis",
+        "center": [
+          292.36,
+          419.02
+        ],
+        "bounds": [
+          267.18,
+          396.68,
+          315.85,
+          439.4
+        ]
+      },
+      {
+        "regionId": "male-front-left-rectus_abdominis-02",
+        "regionKey": "front-left-rectus_abdominis-02",
+        "sourceRegionId": "front-muscle-047",
+        "muscleId": "rectus_abdominis",
+        "muscleName": "Rectus abdominis (abs)",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": "middle",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:rectus_abdominis",
+        "center": [
+          341.39,
+          419.04
+        ],
+        "bounds": [
+          318.21,
+          396.49,
+          366.25,
+          439.73
+        ]
+      },
+      {
+        "regionId": "male-front-right-serratus_anterior-04",
+        "regionKey": "front-right-serratus_anterior-04",
+        "sourceRegionId": "front-muscle-050",
+        "muscleId": "serratus_anterior",
+        "muscleName": "Serratus anterior",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": "lower",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:serratus_anterior",
+        "center": [
+          249.26,
+          440.38
+        ],
+        "bounds": [
+          231.21,
+          416.2,
+          264.81,
+          462.08
+        ]
+      },
+      {
+        "regionId": "male-front-left-serratus_anterior-04",
+        "regionKey": "front-left-serratus_anterior-04",
+        "sourceRegionId": "front-muscle-051",
+        "muscleId": "serratus_anterior",
+        "muscleName": "Serratus anterior",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": "lower",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:serratus_anterior",
+        "center": [
+          384.28,
+          440.51
+        ],
+        "bounds": [
+          368.38,
+          416.18,
+          402.66,
+          462.55
+        ]
+      },
+      {
+        "regionId": "male-front-left-forearm_flexors-01",
+        "regionKey": "front-left-forearm_flexors-01",
+        "sourceRegionId": "front-muscle-052",
+        "muscleId": "forearm_flexors",
+        "muscleName": "Forearm flexors",
+        "muscleGroup": "forearms",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:forearm_flexors",
+        "center": [
+          493.83,
+          504.27
+        ],
+        "bounds": [
+          452.96,
+          425.72,
+          535.74,
+          590.67
+        ]
+      },
+      {
+        "regionId": "male-front-right-forearm_flexors-01",
+        "regionKey": "front-right-forearm_flexors-01",
+        "sourceRegionId": "front-muscle-053",
+        "muscleId": "forearm_flexors",
+        "muscleName": "Forearm flexors",
+        "muscleGroup": "forearms",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:forearm_flexors",
+        "center": [
+          138.56,
+          503.97
+        ],
+        "bounds": [
+          97.03,
+          426.24,
+          179.7,
+          590.35
+        ]
+      },
+      {
+        "regionId": "male-front-right-rectus_abdominis-03",
+        "regionKey": "front-right-rectus_abdominis-03",
+        "sourceRegionId": "front-muscle-056",
+        "muscleId": "rectus_abdominis",
+        "muscleName": "Rectus abdominis (abs)",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": "lower",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:rectus_abdominis",
+        "center": [
+          293.79,
+          461.61
+        ],
+        "bounds": [
+          270.3,
+          439.36,
+          316.12,
+          483.09
+        ]
+      },
+      {
+        "regionId": "male-front-left-rectus_abdominis-03",
+        "regionKey": "front-left-rectus_abdominis-03",
+        "sourceRegionId": "front-muscle-057",
+        "muscleId": "rectus_abdominis",
+        "muscleName": "Rectus abdominis (abs)",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": "lower",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:rectus_abdominis",
+        "center": [
+          339.96,
+          461.63
+        ],
+        "bounds": [
+          317.77,
+          439.54,
+          363.68,
+          483.22
+        ]
+      },
+      {
+        "regionId": "male-front-right-external_oblique-02",
+        "regionKey": "front-right-external_oblique-02",
+        "sourceRegionId": "front-muscle-060",
+        "muscleId": "external_oblique",
+        "muscleName": "External oblique",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:external_oblique",
+        "center": [
+          252.75,
+          493.44
+        ],
+        "bounds": [
+          233.28,
+          454.58,
+          272.72,
+          534.56
+        ]
+      },
+      {
+        "regionId": "male-front-left-external_oblique-02",
+        "regionKey": "front-left-external_oblique-02",
+        "sourceRegionId": "front-muscle-061",
+        "muscleId": "external_oblique",
+        "muscleName": "External oblique",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:external_oblique",
+        "center": [
+          380.66,
+          493.76
+        ],
+        "bounds": [
+          360.43,
+          454.01,
+          400.29,
+          534.35
+        ]
+      },
+      {
+        "regionId": "male-front-right-rectus_abdominis-04",
+        "regionKey": "front-right-rectus_abdominis-04",
+        "sourceRegionId": "front-muscle-062",
+        "muscleId": "rectus_abdominis",
+        "muscleName": "Rectus abdominis (abs)",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": "inferior",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:rectus_abdominis",
+        "center": [
+          297.91,
+          528.32
+        ],
+        "bounds": [
+          273.28,
+          485.69,
+          315.92,
+          584.55
+        ]
+      },
+      {
+        "regionId": "male-front-left-rectus_abdominis-04",
+        "regionKey": "front-left-rectus_abdominis-04",
+        "sourceRegionId": "front-muscle-063",
+        "muscleId": "rectus_abdominis",
+        "muscleName": "Rectus abdominis (abs)",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": "inferior",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:rectus_abdominis",
+        "center": [
+          335.8,
+          528.37
+        ],
+        "bounds": [
+          317.87,
+          486.01,
+          359.71,
+          584.58
+        ]
+      },
+      {
+        "regionId": "male-front-right-tensor_fasciae_latae-01",
+        "regionKey": "front-right-tensor_fasciae_latae-01",
+        "sourceRegionId": "front-muscle-066",
+        "muscleId": "tensor_fasciae_latae",
+        "muscleName": "Tensor fasciae latae",
+        "muscleGroup": "hips",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:tensor_fasciae_latae",
+        "center": [
+          229.7,
+          551.47
+        ],
+        "bounds": [
+          215.4,
+          519.88,
+          244.25,
+          588.14
+        ]
+      },
+      {
+        "regionId": "male-front-left-tensor_fasciae_latae-01",
+        "regionKey": "front-left-tensor_fasciae_latae-01",
+        "sourceRegionId": "front-muscle-067",
+        "muscleId": "tensor_fasciae_latae",
+        "muscleName": "Tensor fasciae latae",
+        "muscleGroup": "hips",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:tensor_fasciae_latae",
+        "center": [
+          404.1,
+          551.13
+        ],
+        "bounds": [
+          389.61,
+          519.96,
+          418.6,
+          586.66
+        ]
+      },
+      {
+        "regionId": "male-front-right-hip_adductors-01",
+        "regionKey": "front-right-hip_adductors-01",
+        "sourceRegionId": "front-muscle-068",
+        "muscleId": "hip_adductors",
+        "muscleName": "Hip adductors (inner thigh)",
+        "muscleGroup": "adductors",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:hip_adductors",
+        "center": [
+          284.36,
+          596.9
+        ],
+        "bounds": [
+          244.05,
+          522.17,
+          307.11,
+          671.79
+        ]
+      },
+      {
+        "regionId": "male-front-left-hip_adductors-01",
+        "regionKey": "front-left-hip_adductors-01",
+        "sourceRegionId": "front-muscle-069",
+        "muscleId": "hip_adductors",
+        "muscleName": "Hip adductors (inner thigh)",
+        "muscleGroup": "adductors",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:hip_adductors",
+        "center": [
+          349.6,
+          596.93
+        ],
+        "bounds": [
+          326.2,
+          520.65,
+          390.58,
+          671.3
+        ]
+      },
+      {
+        "regionId": "male-front-right-sartorius-01",
+        "regionKey": "front-right-sartorius-01",
+        "sourceRegionId": "front-muscle-072",
+        "muscleId": "sartorius",
+        "muscleName": "Sartorius",
+        "muscleGroup": "hips",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:sartorius",
+        "center": [
+          268.08,
+          618.89
+        ],
+        "bounds": [
+          247.41,
+          552.73,
+          287.1,
+          678.84
+        ]
+      },
+      {
+        "regionId": "male-front-left-sartorius-01",
+        "regionKey": "front-left-sartorius-01",
+        "sourceRegionId": "front-muscle-073",
+        "muscleId": "sartorius",
+        "muscleName": "Sartorius",
+        "muscleGroup": "hips",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:sartorius",
+        "center": [
+          365.42,
+          619.34
+        ],
+        "bounds": [
+          345.97,
+          552.02,
+          386.81,
+          678.76
+        ]
+      },
+      {
+        "regionId": "male-front-right-rectus_femoris-01",
+        "regionKey": "front-right-rectus_femoris-01",
+        "sourceRegionId": "front-muscle-074",
+        "muscleId": "rectus_femoris",
+        "muscleName": "Rectus femoris",
+        "muscleGroup": "quadriceps",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:rectus_femoris",
+        "center": [
+          243.58,
+          666.88
+        ],
+        "bounds": [
+          220.44,
+          567.04,
+          268.57,
+          762.92
+        ]
+      },
+      {
+        "regionId": "male-front-left-rectus_femoris-01",
+        "regionKey": "front-left-rectus_femoris-01",
+        "sourceRegionId": "front-muscle-075",
+        "muscleId": "rectus_femoris",
+        "muscleName": "Rectus femoris",
+        "muscleGroup": "quadriceps",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:rectus_femoris",
+        "center": [
+          390.27,
+          666.55
+        ],
+        "bounds": [
+          364.29,
+          566.84,
+          414.56,
+          761.82
+        ]
+      },
+      {
+        "regionId": "male-front-right-vastus_lateralis-01",
+        "regionKey": "front-right-vastus_lateralis-01",
+        "sourceRegionId": "front-muscle-078",
+        "muscleId": "vastus_lateralis",
+        "muscleName": "Vastus lateralis",
+        "muscleGroup": "quadriceps",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:vastus_lateralis",
+        "center": [
+          220.65,
+          714.38
+        ],
+        "bounds": [
+          205.69,
+          603.43,
+          243.11,
+          790.79
+        ]
+      },
+      {
+        "regionId": "male-front-left-vastus_lateralis-01",
+        "regionKey": "front-left-vastus_lateralis-01",
+        "sourceRegionId": "front-muscle-079",
+        "muscleId": "vastus_lateralis",
+        "muscleName": "Vastus lateralis",
+        "muscleGroup": "quadriceps",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:vastus_lateralis",
+        "center": [
+          413.25,
+          715.18
+        ],
+        "bounds": [
+          390.33,
+          602.95,
+          428.5,
+          791.4
+        ]
+      },
+      {
+        "regionId": "male-front-right-hip_adductors-02",
+        "regionKey": "front-right-hip_adductors-02",
+        "sourceRegionId": "front-muscle-084",
+        "muscleId": "hip_adductors",
+        "muscleName": "Hip adductors (inner thigh)",
+        "muscleGroup": "adductors",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:hip_adductors",
+        "center": [
+          293.12,
+          696.6
+        ],
+        "bounds": [
+          284.02,
+          659.4,
+          302.18,
+          739.57
+        ]
+      },
+      {
+        "regionId": "male-front-left-hip_adductors-02",
+        "regionKey": "front-left-hip_adductors-02",
+        "sourceRegionId": "front-muscle-085",
+        "muscleId": "hip_adductors",
+        "muscleName": "Hip adductors (inner thigh)",
+        "muscleGroup": "adductors",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:hip_adductors",
+        "center": [
+          340.09,
+          697.08
+        ],
+        "bounds": [
+          331.49,
+          659.78,
+          349.03,
+          739.64
+        ]
+      },
+      {
+        "regionId": "male-front-right-vastus_medialis-01",
+        "regionKey": "front-right-vastus_medialis-01",
+        "sourceRegionId": "front-muscle-088",
+        "muscleId": "vastus_medialis",
+        "muscleName": "Vastus medialis",
+        "muscleGroup": "quadriceps",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:vastus_medialis",
+        "center": [
+          273.29,
+          761.01
+        ],
+        "bounds": [
+          254.7,
+          693.63,
+          288.62,
+          810.64
+        ]
+      },
+      {
+        "regionId": "male-front-left-vastus_medialis-01",
+        "regionKey": "front-left-vastus_medialis-01",
+        "sourceRegionId": "front-muscle-089",
+        "muscleId": "vastus_medialis",
+        "muscleName": "Vastus medialis",
+        "muscleGroup": "quadriceps",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:vastus_medialis",
+        "center": [
+          360.05,
+          761.07
+        ],
+        "bounds": [
+          344.49,
+          693.6,
+          378.69,
+          810.78
+        ]
+      },
+      {
+        "regionId": "male-front-right-patella_region-01",
+        "regionKey": "front-right-patella_region-01",
+        "sourceRegionId": "front-muscle-090",
+        "muscleId": "patella_region",
+        "muscleName": "Patella / front knee",
+        "muscleGroup": "joints",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "joint",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:patella_region",
+        "center": [
+          249.84,
+          841.34
+        ],
+        "bounds": [
+          228.56,
+          810.07,
+          271.54,
+          878.62
+        ]
+      },
+      {
+        "regionId": "male-front-left-patella_region-01",
+        "regionKey": "front-left-patella_region-01",
+        "sourceRegionId": "front-muscle-091",
+        "muscleId": "patella_region",
+        "muscleName": "Patella / front knee",
+        "muscleGroup": "joints",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "joint",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:patella_region",
+        "center": [
+          383.95,
+          841.34
+        ],
+        "bounds": [
+          361.85,
+          809.97,
+          405.1,
+          879.16
+        ]
+      },
+      {
+        "regionId": "male-front-right-patellar_tendon_region-01",
+        "regionKey": "front-right-patellar_tendon_region-01",
+        "sourceRegionId": "front-muscle-098",
+        "muscleId": "patellar_tendon_region",
+        "muscleName": "Patellar tendon / upper shin region",
+        "muscleGroup": "connective_tissue",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "tendon",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:patellar_tendon_region",
+        "center": [
+          261.15,
+          888.58
+        ],
+        "bounds": [
+          250.39,
+          860.01,
+          274.19,
+          919.73
+        ]
+      },
+      {
+        "regionId": "male-front-left-patellar_tendon_region-01",
+        "regionKey": "front-left-patellar_tendon_region-01",
+        "sourceRegionId": "front-muscle-099",
+        "muscleId": "patellar_tendon_region",
+        "muscleName": "Patellar tendon / upper shin region",
+        "muscleGroup": "connective_tissue",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "tendon",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:patellar_tendon_region",
+        "center": [
+          372.55,
+          889.1
+        ],
+        "bounds": [
+          359.4,
+          859.07,
+          383.24,
+          919.75
+        ]
+      },
+      {
+        "regionId": "male-front-right-tibialis_anterior-01",
+        "regionKey": "front-right-tibialis_anterior-01",
+        "sourceRegionId": "front-muscle-100",
+        "muscleId": "tibialis_anterior",
+        "muscleName": "Tibialis anterior",
+        "muscleGroup": "shins",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:tibialis_anterior",
+        "center": [
+          240.04,
+          984.64
+        ],
+        "bounds": [
+          221.98,
+          866.6,
+          267.48,
+          1098.2
+        ]
+      },
+      {
+        "regionId": "male-front-left-tibialis_anterior-01",
+        "regionKey": "front-left-tibialis_anterior-01",
+        "sourceRegionId": "front-muscle-101",
+        "muscleId": "tibialis_anterior",
+        "muscleName": "Tibialis anterior",
+        "muscleGroup": "shins",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:tibialis_anterior",
+        "center": [
+          393.42,
+          983.07
+        ],
+        "bounds": [
+          366.29,
+          866.67,
+          411.62,
+          1098.36
+        ]
+      },
+      {
+        "regionId": "male-front-right-gastrocnemius-02",
+        "regionKey": "front-right-gastrocnemius-02",
+        "sourceRegionId": "front-muscle-102",
+        "muscleId": "gastrocnemius",
+        "muscleName": "Gastrocnemius",
+        "muscleGroup": "calves",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": "anterior_projection",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:gastrocnemius",
+        "center": [
+          271.59,
+          931.56
+        ],
+        "bounds": [
+          258.46,
+          882.14,
+          285.31,
+          976.01
+        ]
+      },
+      {
+        "regionId": "male-front-left-gastrocnemius-02",
+        "regionKey": "front-left-gastrocnemius-02",
+        "sourceRegionId": "front-muscle-103",
+        "muscleId": "gastrocnemius",
+        "muscleName": "Gastrocnemius",
+        "muscleGroup": "calves",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": "anterior_projection",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:gastrocnemius",
+        "center": [
+          361.74,
+          931.64
+        ],
+        "bounds": [
+          348.37,
+          882.1,
+          374.68,
+          976.13
+        ]
+      },
+      {
+        "regionId": "male-front-left-fibularis_group-01",
+        "regionKey": "front-left-fibularis_group-01",
+        "sourceRegionId": "front-muscle-104",
+        "muscleId": "fibularis_group",
+        "muscleName": "Fibularis (peroneal) group",
+        "muscleGroup": "shins",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:fibularis_group",
+        "center": [
+          416.78,
+          936.45
+        ],
+        "bounds": [
+          408.34,
+          884.0,
+          423.55,
+          989.3
+        ]
+      },
+      {
+        "regionId": "male-front-right-fibularis_group-01",
+        "regionKey": "front-right-fibularis_group-01",
+        "sourceRegionId": "front-muscle-105",
+        "muscleId": "fibularis_group",
+        "muscleName": "Fibularis (peroneal) group",
+        "muscleGroup": "shins",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:fibularis_group",
+        "center": [
+          217.07,
+          936.0
+        ],
+        "bounds": [
+          210.49,
+          883.28,
+          225.28,
+          988.25
+        ]
+      },
+      {
+        "regionId": "male-front-right-soleus-01",
+        "regionKey": "front-right-soleus-01",
+        "sourceRegionId": "front-muscle-110",
+        "muscleId": "soleus",
+        "muscleName": "Soleus",
+        "muscleGroup": "calves",
+        "side": "right",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:soleus",
+        "center": [
+          260.6,
+          1016.09
+        ],
+        "bounds": [
+          254.53,
+          986.63,
+          268.44,
+          1060.73
+        ]
+      },
+      {
+        "regionId": "male-front-left-soleus-01",
+        "regionKey": "front-left-soleus-01",
+        "sourceRegionId": "front-muscle-111",
+        "muscleId": "soleus",
+        "muscleName": "Soleus",
+        "muscleGroup": "calves",
+        "side": "left",
+        "view": "front",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:soleus",
+        "center": [
+          372.73,
+          1016.45
+        ],
+        "bounds": [
+          363.99,
+          986.81,
+          379.01,
+          1060.31
+        ]
+      },
+      {
+        "regionId": "male-rear-left-trapezius-01",
+        "regionKey": "rear-left-trapezius-01",
+        "sourceRegionId": "rear-muscle-002",
+        "muscleId": "trapezius",
+        "muscleName": "Trapezius",
+        "muscleGroup": "upper_back",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": "upper",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:trapezius",
+        "center": [
+          903.42,
+          215.92
+        ],
+        "bounds": [
+          851.89,
+          167.73,
+          930.11,
+          245.58
+        ]
+      },
+      {
+        "regionId": "male-rear-right-trapezius-01",
+        "regionKey": "rear-right-trapezius-01",
+        "sourceRegionId": "rear-muscle-003",
+        "muscleId": "trapezius",
+        "muscleName": "Trapezius",
+        "muscleGroup": "upper_back",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": "upper",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:trapezius",
+        "center": [
+          959.39,
+          216.1
+        ],
+        "bounds": [
+          932.88,
+          167.74,
+          1011.0,
+          245.53
+        ]
+      },
+      {
+        "regionId": "male-rear-left-trapezius-02",
+        "regionKey": "rear-left-trapezius-02",
+        "sourceRegionId": "rear-muscle-011",
+        "muscleId": "trapezius",
+        "muscleName": "Trapezius",
+        "muscleGroup": "upper_back",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": "middle_lower",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:trapezius",
+        "center": [
+          895.99,
+          299.89
+        ],
+        "bounds": [
+          836.47,
+          243.07,
+          927.86,
+          395.35
+        ]
+      },
+      {
+        "regionId": "male-rear-right-trapezius-02",
+        "regionKey": "rear-right-trapezius-02",
+        "sourceRegionId": "rear-muscle-012",
+        "muscleId": "trapezius",
+        "muscleName": "Trapezius",
+        "muscleGroup": "upper_back",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": "middle_lower",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:trapezius",
+        "center": [
+          966.33,
+          300.34
+        ],
+        "bounds": [
+          934.17,
+          242.18,
+          1026.43,
+          397.16
+        ]
+      },
+      {
+        "regionId": "male-rear-left-trapezius-03",
+        "regionKey": "rear-left-trapezius-03",
+        "sourceRegionId": "rear-muscle-014",
+        "muscleId": "trapezius",
+        "muscleName": "Trapezius",
+        "muscleGroup": "upper_back",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": "upper_lateral",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:trapezius",
+        "center": [
+          823.37,
+          248.72
+        ],
+        "bounds": [
+          812.96,
+          243.38,
+          833.37,
+          253.98
+        ]
+      },
+      {
+        "regionId": "male-rear-right-trapezius-03",
+        "regionKey": "rear-right-trapezius-03",
+        "sourceRegionId": "rear-muscle-015",
+        "muscleId": "trapezius",
+        "muscleName": "Trapezius",
+        "muscleGroup": "upper_back",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": "upper_lateral",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:trapezius",
+        "center": [
+          1038.54,
+          248.64
+        ],
+        "bounds": [
+          1028.84,
+          243.27,
+          1048.51,
+          254.01
+        ]
+      },
+      {
+        "regionId": "male-rear-left-lateral_deltoid-01",
+        "regionKey": "rear-left-lateral_deltoid-01",
+        "sourceRegionId": "rear-muscle-018",
+        "muscleId": "lateral_deltoid",
+        "muscleName": "Lateral deltoid",
+        "muscleGroup": "shoulders",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:lateral_deltoid",
+        "center": [
+          784.37,
+          292.72
+        ],
+        "bounds": [
+          770.03,
+          249.89,
+          805.42,
+          333.25
+        ]
+      },
+      {
+        "regionId": "male-rear-right-lateral_deltoid-01",
+        "regionKey": "rear-right-lateral_deltoid-01",
+        "sourceRegionId": "rear-muscle-019",
+        "muscleId": "lateral_deltoid",
+        "muscleName": "Lateral deltoid",
+        "muscleGroup": "shoulders",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:lateral_deltoid",
+        "center": [
+          1076.75,
+          292.28
+        ],
+        "bounds": [
+          1055.96,
+          249.9,
+          1090.61,
+          332.86
+        ]
+      },
+      {
+        "regionId": "male-rear-left-posterior_deltoid-02",
+        "regionKey": "rear-left-posterior_deltoid-02",
+        "sourceRegionId": "rear-muscle-022",
+        "muscleId": "posterior_deltoid",
+        "muscleName": "Posterior deltoid",
+        "muscleGroup": "shoulders",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:posterior_deltoid",
+        "center": [
+          815.77,
+          283.82
+        ],
+        "bounds": [
+          794.46,
+          255.43,
+          841.63,
+          317.45
+        ]
+      },
+      {
+        "regionId": "male-rear-right-posterior_deltoid-02",
+        "regionKey": "rear-right-posterior_deltoid-02",
+        "sourceRegionId": "rear-muscle-023",
+        "muscleId": "posterior_deltoid",
+        "muscleName": "Posterior deltoid",
+        "muscleGroup": "shoulders",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:posterior_deltoid",
+        "center": [
+          1045.96,
+          283.13
+        ],
+        "bounds": [
+          1021.05,
+          255.22,
+          1066.87,
+          315.65
+        ]
+      },
+      {
+        "regionId": "male-rear-left-posterior_rotator_cuff-01",
+        "regionKey": "rear-left-posterior_rotator_cuff-01",
+        "sourceRegionId": "rear-muscle-024",
+        "muscleId": "posterior_rotator_cuff",
+        "muscleName": "Posterior rotator cuff",
+        "muscleGroup": "upper_back",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:posterior_rotator_cuff",
+        "center": [
+          847.38,
+          309.15
+        ],
+        "bounds": [
+          818.66,
+          279.62,
+          870.42,
+          332.91
+        ]
+      },
+      {
+        "regionId": "male-rear-right-posterior_rotator_cuff-01",
+        "regionKey": "rear-right-posterior_rotator_cuff-01",
+        "sourceRegionId": "rear-muscle-025",
+        "muscleId": "posterior_rotator_cuff",
+        "muscleName": "Posterior rotator cuff",
+        "muscleGroup": "upper_back",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:posterior_rotator_cuff",
+        "center": [
+          1015.22,
+          309.1
+        ],
+        "bounds": [
+          992.19,
+          279.01,
+          1044.09,
+          332.37
+        ]
+      },
+      {
+        "regionId": "male-rear-left-triceps_brachii-01",
+        "regionKey": "rear-left-triceps_brachii-01",
+        "sourceRegionId": "rear-muscle-026",
+        "muscleId": "triceps_brachii",
+        "muscleName": "Triceps brachii",
+        "muscleGroup": "upper_arms",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:triceps_brachii",
+        "center": [
+          804.65,
+          371.4
+        ],
+        "bounds": [
+          788.32,
+          322.99,
+          821.32,
+          414.91
+        ]
+      },
+      {
+        "regionId": "male-rear-right-triceps_brachii-01",
+        "regionKey": "rear-right-triceps_brachii-01",
+        "sourceRegionId": "rear-muscle-027",
+        "muscleId": "triceps_brachii",
+        "muscleName": "Triceps brachii",
+        "muscleGroup": "upper_arms",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:triceps_brachii",
+        "center": [
+          1058.25,
+          371.32
+        ],
+        "bounds": [
+          1042.3,
+          322.08,
+          1073.71,
+          414.74
+        ]
+      },
+      {
+        "regionId": "male-rear-left-triceps_brachii-02",
+        "regionKey": "rear-left-triceps_brachii-02",
+        "sourceRegionId": "rear-muscle-030",
+        "muscleId": "triceps_brachii",
+        "muscleName": "Triceps brachii",
+        "muscleGroup": "upper_arms",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:triceps_brachii",
+        "center": [
+          777.69,
+          365.93
+        ],
+        "bounds": [
+          762.27,
+          328.28,
+          795.32,
+          401.05
+        ]
+      },
+      {
+        "regionId": "male-rear-left-latissimus_dorsi-01",
+        "regionKey": "rear-left-latissimus_dorsi-01",
+        "sourceRegionId": "rear-muscle-031",
+        "muscleId": "latissimus_dorsi",
+        "muscleName": "Latissimus dorsi (lats)",
+        "muscleGroup": "upper_back",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:latissimus_dorsi",
+        "center": [
+          868.75,
+          389.78
+        ],
+        "bounds": [
+          821.53,
+          328.06,
+          912.07,
+          464.56
+        ]
+      },
+      {
+        "regionId": "male-rear-right-latissimus_dorsi-01",
+        "regionKey": "rear-right-latissimus_dorsi-01",
+        "sourceRegionId": "rear-muscle-032",
+        "muscleId": "latissimus_dorsi",
+        "muscleName": "Latissimus dorsi (lats)",
+        "muscleGroup": "upper_back",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:latissimus_dorsi",
+        "center": [
+          994.52,
+          389.57
+        ],
+        "bounds": [
+          950.99,
+          328.76,
+          1041.55,
+          463.45
+        ]
+      },
+      {
+        "regionId": "male-rear-right-triceps_brachii-02",
+        "regionKey": "rear-right-triceps_brachii-02",
+        "sourceRegionId": "rear-muscle-033",
+        "muscleId": "triceps_brachii",
+        "muscleName": "Triceps brachii",
+        "muscleGroup": "upper_arms",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:triceps_brachii",
+        "center": [
+          1084.65,
+          366.14
+        ],
+        "bounds": [
+          1067.28,
+          328.11,
+          1099.73,
+          401.26
+        ]
+      },
+      {
+        "regionId": "male-rear-left-triceps_brachii-03",
+        "regionKey": "rear-left-triceps_brachii-03",
+        "sourceRegionId": "rear-muscle-044",
+        "muscleId": "triceps_brachii",
+        "muscleName": "Triceps brachii",
+        "muscleGroup": "upper_arms",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:triceps_brachii",
+        "center": [
+          778.09,
+          429.43
+        ],
+        "bounds": [
+          766.51,
+          396.23,
+          789.95,
+          461.91
+        ]
+      },
+      {
+        "regionId": "male-rear-right-triceps_brachii-03",
+        "regionKey": "rear-right-triceps_brachii-03",
+        "sourceRegionId": "rear-muscle-045",
+        "muscleId": "triceps_brachii",
+        "muscleName": "Triceps brachii",
+        "muscleGroup": "upper_arms",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:triceps_brachii",
+        "center": [
+          1084.85,
+          429.58
+        ],
+        "bounds": [
+          1072.92,
+          396.08,
+          1096.52,
+          462.06
+        ]
+      },
+      {
+        "regionId": "male-rear-left-erector_spinae-01",
+        "regionKey": "rear-left-erector_spinae-01",
+        "sourceRegionId": "rear-muscle-048",
+        "muscleId": "erector_spinae",
+        "muscleName": "Erector spinae / lower back",
+        "muscleGroup": "lower_back",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:erector_spinae",
+        "center": [
+          909.41,
+          476.93
+        ],
+        "bounds": [
+          883.86,
+          411.09,
+          927.56,
+          533.95
+        ]
+      },
+      {
+        "regionId": "male-rear-right-erector_spinae-01",
+        "regionKey": "rear-right-erector_spinae-01",
+        "sourceRegionId": "rear-muscle-049",
+        "muscleId": "erector_spinae",
+        "muscleName": "Erector spinae / lower back",
+        "muscleGroup": "lower_back",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:erector_spinae",
+        "center": [
+          953.43,
+          476.81
+        ],
+        "bounds": [
+          934.94,
+          411.2,
+          978.63,
+          534.04
+        ]
+      },
+      {
+        "regionId": "male-rear-left-forearm_extensors-01",
+        "regionKey": "rear-left-forearm_extensors-01",
+        "sourceRegionId": "rear-muscle-054",
+        "muscleId": "forearm_extensors",
+        "muscleName": "Forearm extensors",
+        "muscleGroup": "forearms",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:forearm_extensors",
+        "center": [
+          747.61,
+          510.83
+        ],
+        "bounds": [
+          708.03,
+          432.05,
+          790.94,
+          591.49
+        ]
+      },
+      {
+        "regionId": "male-rear-right-forearm_extensors-01",
+        "regionKey": "rear-right-forearm_extensors-01",
+        "sourceRegionId": "rear-muscle-055",
+        "muscleId": "forearm_extensors",
+        "muscleName": "Forearm extensors",
+        "muscleGroup": "forearms",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:forearm_extensors",
+        "center": [
+          1114.19,
+          511.26
+        ],
+        "bounds": [
+          1071.09,
+          433.56,
+          1154.15,
+          591.03
+        ]
+      },
+      {
+        "regionId": "male-rear-left-external_oblique-01",
+        "regionKey": "rear-left-external_oblique-01",
+        "sourceRegionId": "rear-muscle-058",
+        "muscleId": "external_oblique",
+        "muscleName": "External oblique",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:external_oblique",
+        "center": [
+          863.8,
+          484.23
+        ],
+        "bounds": [
+          848.97,
+          453.61,
+          880.66,
+          505.97
+        ]
+      },
+      {
+        "regionId": "male-rear-right-external_oblique-01",
+        "regionKey": "rear-right-external_oblique-01",
+        "sourceRegionId": "rear-muscle-059",
+        "muscleId": "external_oblique",
+        "muscleName": "External oblique",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:external_oblique",
+        "center": [
+          999.16,
+          484.16
+        ],
+        "bounds": [
+          982.39,
+          453.9,
+          1013.88,
+          506.07
+        ]
+      },
+      {
+        "regionId": "male-rear-left-gluteus_medius-01",
+        "regionKey": "rear-left-gluteus_medius-01",
+        "sourceRegionId": "rear-muscle-064",
+        "muscleId": "gluteus_medius",
+        "muscleName": "Gluteus medius",
+        "muscleGroup": "glutes",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:gluteus_medius",
+        "center": [
+          858.41,
+          532.95
+        ],
+        "bounds": [
+          832.72,
+          509.06,
+          892.61,
+          577.13
+        ]
+      },
+      {
+        "regionId": "male-rear-right-gluteus_medius-01",
+        "regionKey": "rear-right-gluteus_medius-01",
+        "sourceRegionId": "rear-muscle-065",
+        "muscleId": "gluteus_medius",
+        "muscleName": "Gluteus medius",
+        "muscleGroup": "glutes",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:gluteus_medius",
+        "center": [
+          1004.69,
+          532.62
+        ],
+        "bounds": [
+          970.92,
+          509.01,
+          1030.3,
+          577.19
+        ]
+      },
+      {
+        "regionId": "male-rear-left-gluteus_maximus-01",
+        "regionKey": "rear-left-gluteus_maximus-01",
+        "sourceRegionId": "rear-muscle-070",
+        "muscleId": "gluteus_maximus",
+        "muscleName": "Gluteus maximus",
+        "muscleGroup": "glutes",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:gluteus_maximus",
+        "center": [
+          885.24,
+          589.14
+        ],
+        "bounds": [
+          837.75,
+          530.43,
+          929.48,
+          645.93
+        ]
+      },
+      {
+        "regionId": "male-rear-right-gluteus_maximus-01",
+        "regionKey": "rear-right-gluteus_maximus-01",
+        "sourceRegionId": "rear-muscle-071",
+        "muscleId": "gluteus_maximus",
+        "muscleName": "Gluteus maximus",
+        "muscleGroup": "glutes",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:gluteus_maximus",
+        "center": [
+          977.23,
+          588.82
+        ],
+        "bounds": [
+          932.79,
+          529.85,
+          1024.69,
+          645.99
+        ]
+      },
+      {
+        "regionId": "male-rear-left-iliotibial_tract-01",
+        "regionKey": "rear-left-iliotibial_tract-01",
+        "sourceRegionId": "rear-muscle-076",
+        "muscleId": "iliotibial_tract",
+        "muscleName": "Iliotibial band region",
+        "muscleGroup": "connective_tissue",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "fascia",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:iliotibial_tract",
+        "center": [
+          829.94,
+          667.18
+        ],
+        "bounds": [
+          817.3,
+          600.26,
+          846.91,
+          750.13
+        ]
+      },
+      {
+        "regionId": "male-rear-right-iliotibial_tract-01",
+        "regionKey": "rear-right-iliotibial_tract-01",
+        "sourceRegionId": "rear-muscle-077",
+        "muscleId": "iliotibial_tract",
+        "muscleName": "Iliotibial band region",
+        "muscleGroup": "connective_tissue",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "fascia",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:iliotibial_tract",
+        "center": [
+          1032.8,
+          667.13
+        ],
+        "bounds": [
+          1015.94,
+          598.33,
+          1045.6,
+          749.11
+        ]
+      },
+      {
+        "regionId": "male-rear-left-hip_adductors-01",
+        "regionKey": "rear-left-hip_adductors-01",
+        "sourceRegionId": "rear-muscle-080",
+        "muscleId": "hip_adductors",
+        "muscleName": "Hip adductors (inner thigh)",
+        "muscleGroup": "adductors",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:hip_adductors",
+        "center": [
+          896.81,
+          693.17
+        ],
+        "bounds": [
+          873.78,
+          650.51,
+          915.4,
+          750.37
+        ]
+      },
+      {
+        "regionId": "male-rear-right-hip_adductors-01",
+        "regionKey": "rear-right-hip_adductors-01",
+        "sourceRegionId": "rear-muscle-081",
+        "muscleId": "hip_adductors",
+        "muscleName": "Hip adductors (inner thigh)",
+        "muscleGroup": "adductors",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:hip_adductors",
+        "center": [
+          965.4,
+          692.97
+        ],
+        "bounds": [
+          946.7,
+          650.15,
+          988.91,
+          750.18
+        ]
+      },
+      {
+        "regionId": "male-rear-right-biceps_femoris-01",
+        "regionKey": "rear-right-biceps_femoris-01",
+        "sourceRegionId": "rear-muscle-082",
+        "muscleId": "biceps_femoris",
+        "muscleName": "Biceps femoris",
+        "muscleGroup": "hamstrings",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:biceps_femoris",
+        "center": [
+          1011.72,
+          739.76
+        ],
+        "bounds": [
+          994.13,
+          652.96,
+          1029.18,
+          842.88
+        ]
+      },
+      {
+        "regionId": "male-rear-left-biceps_femoris-01",
+        "regionKey": "rear-left-biceps_femoris-01",
+        "sourceRegionId": "rear-muscle-083",
+        "muscleId": "biceps_femoris",
+        "muscleName": "Biceps femoris",
+        "muscleGroup": "hamstrings",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:biceps_femoris",
+        "center": [
+          850.42,
+          740.8
+        ],
+        "bounds": [
+          832.8,
+          653.32,
+          868.6,
+          842.54
+        ]
+      },
+      {
+        "regionId": "male-rear-left-medial_hamstrings-01",
+        "regionKey": "rear-left-medial_hamstrings-01",
+        "sourceRegionId": "rear-muscle-086",
+        "muscleId": "medial_hamstrings",
+        "muscleName": "Medial hamstrings",
+        "muscleGroup": "hamstrings",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:medial_hamstrings",
+        "center": [
+          881.6,
+          770.7
+        ],
+        "bounds": [
+          866.42,
+          681.79,
+          899.24,
+          844.72
+        ]
+      },
+      {
+        "regionId": "male-rear-right-medial_hamstrings-01",
+        "regionKey": "rear-right-medial_hamstrings-01",
+        "sourceRegionId": "rear-muscle-087",
+        "muscleId": "medial_hamstrings",
+        "muscleName": "Medial hamstrings",
+        "muscleGroup": "hamstrings",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:medial_hamstrings",
+        "center": [
+          980.37,
+          771.08
+        ],
+        "bounds": [
+          962.46,
+          682.18,
+          995.79,
+          844.94
+        ]
+      },
+      {
+        "regionId": "male-rear-left-popliteal_region-01",
+        "regionKey": "rear-left-popliteal_region-01",
+        "sourceRegionId": "rear-muscle-092",
+        "muscleId": "popliteal_region",
+        "muscleName": "Back of knee (popliteal region)",
+        "muscleGroup": "joints",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "joint",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:popliteal_region",
+        "center": [
+          860.79,
+          837.51
+        ],
+        "bounds": [
+          852.71,
+          819.34,
+          868.78,
+          858.49
+        ]
+      },
+      {
+        "regionId": "male-rear-right-popliteal_region-01",
+        "regionKey": "rear-right-popliteal_region-01",
+        "sourceRegionId": "rear-muscle-093",
+        "muscleId": "popliteal_region",
+        "muscleName": "Back of knee (popliteal region)",
+        "muscleGroup": "joints",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "joint",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:popliteal_region",
+        "center": [
+          1001.42,
+          837.19
+        ],
+        "bounds": [
+          993.47,
+          819.03,
+          1009.66,
+          858.6
+        ]
+      },
+      {
+        "regionId": "male-rear-left-gastrocnemius-01",
+        "regionKey": "rear-left-gastrocnemius-01",
+        "sourceRegionId": "rear-muscle-094",
+        "muscleId": "gastrocnemius",
+        "muscleName": "Gastrocnemius",
+        "muscleGroup": "calves",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": "lateral_head",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:gastrocnemius",
+        "center": [
+          841.63,
+          912.37
+        ],
+        "bounds": [
+          821.35,
+          846.94,
+          858.15,
+          968.55
+        ]
+      },
+      {
+        "regionId": "male-rear-right-gastrocnemius-01",
+        "regionKey": "rear-right-gastrocnemius-01",
+        "sourceRegionId": "rear-muscle-095",
+        "muscleId": "gastrocnemius",
+        "muscleName": "Gastrocnemius",
+        "muscleGroup": "calves",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": "lateral_head",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:gastrocnemius",
+        "center": [
+          1020.31,
+          912.43
+        ],
+        "bounds": [
+          1003.49,
+          847.32,
+          1040.82,
+          968.31
+        ]
+      },
+      {
+        "regionId": "male-rear-left-gastrocnemius-02",
+        "regionKey": "rear-left-gastrocnemius-02",
+        "sourceRegionId": "rear-muscle-096",
+        "muscleId": "gastrocnemius",
+        "muscleName": "Gastrocnemius",
+        "muscleGroup": "calves",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": "medial_head",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:gastrocnemius",
+        "center": [
+          877.24,
+          917.15
+        ],
+        "bounds": [
+          860.44,
+          850.25,
+          897.44,
+          974.04
+        ]
+      },
+      {
+        "regionId": "male-rear-right-gastrocnemius-02",
+        "regionKey": "rear-right-gastrocnemius-02",
+        "sourceRegionId": "rear-muscle-097",
+        "muscleId": "gastrocnemius",
+        "muscleName": "Gastrocnemius",
+        "muscleGroup": "calves",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": "medial_head",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:gastrocnemius",
+        "center": [
+          984.56,
+          916.77
+        ],
+        "bounds": [
+          964.69,
+          850.76,
+          1001.49,
+          973.85
+        ]
+      },
+      {
+        "regionId": "male-rear-right-soleus-01",
+        "regionKey": "rear-right-soleus-01",
+        "sourceRegionId": "rear-muscle-106",
+        "muscleId": "soleus",
+        "muscleName": "Soleus",
+        "muscleGroup": "calves",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:soleus",
+        "center": [
+          1016.06,
+          1034.33
+        ],
+        "bounds": [
+          1006.56,
+          969.69,
+          1032.31,
+          1108.93
+        ]
+      },
+      {
+        "regionId": "male-rear-left-soleus-01",
+        "regionKey": "rear-left-soleus-01",
+        "sourceRegionId": "rear-muscle-107",
+        "muscleId": "soleus",
+        "muscleName": "Soleus",
+        "muscleGroup": "calves",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:soleus",
+        "center": [
+          845.12,
+          1035.71
+        ],
+        "bounds": [
+          829.96,
+          970.83,
+          853.58,
+          1109.32
+        ]
+      },
+      {
+        "regionId": "male-rear-left-achilles_tendon-01",
+        "regionKey": "rear-left-achilles_tendon-01",
+        "sourceRegionId": "rear-muscle-108",
+        "muscleId": "achilles_tendon",
+        "muscleName": "Achilles tendon region",
+        "muscleGroup": "connective_tissue",
+        "side": "left",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "tendon",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:achilles_tendon",
+        "center": [
+          864.8,
+          1036.35
+        ],
+        "bounds": [
+          846.69,
+          971.09,
+          881.27,
+          1114.05
+        ]
+      },
+      {
+        "regionId": "male-rear-right-achilles_tendon-01",
+        "regionKey": "rear-right-achilles_tendon-01",
+        "sourceRegionId": "rear-muscle-109",
+        "muscleId": "achilles_tendon",
+        "muscleName": "Achilles tendon region",
+        "muscleGroup": "connective_tissue",
+        "side": "right",
+        "view": "rear",
+        "sex": "male",
+        "subregion": null,
+        "kind": "tendon",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:achilles_tendon",
+        "center": [
+          995.99,
+          1036.17
+        ],
+        "bounds": [
+          978.79,
+          970.07,
+          1014.61,
+          1113.54
+        ]
+      }
+    ],
+    "female": [
+      {
+        "regionId": "female-front-right-sternocleidomastoid-01",
+        "regionKey": "front-right-sternocleidomastoid-01",
+        "sourceRegionId": "front-muscle-004",
+        "muscleId": "sternocleidomastoid",
+        "muscleName": "Sternocleidomastoid",
+        "muscleGroup": "neck",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:sternocleidomastoid",
+        "center": [
+          301.45,
+          228.67
+        ],
+        "bounds": [
+          287.38,
+          197.76,
+          313.36,
+          266.22
+        ]
+      },
+      {
+        "regionId": "female-front-left-sternocleidomastoid-01",
+        "regionKey": "front-left-sternocleidomastoid-01",
+        "sourceRegionId": "front-muscle-005",
+        "muscleId": "sternocleidomastoid",
+        "muscleName": "Sternocleidomastoid",
+        "muscleGroup": "neck",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:sternocleidomastoid",
+        "center": [
+          328.15,
+          228.89
+        ],
+        "bounds": [
+          316.45,
+          198.0,
+          342.01,
+          266.73
+        ]
+      },
+      {
+        "regionId": "female-front-right-sternocleidomastoid-02",
+        "regionKey": "front-right-sternocleidomastoid-02",
+        "sourceRegionId": "front-muscle-006",
+        "muscleId": "sternocleidomastoid",
+        "muscleName": "Sternocleidomastoid",
+        "muscleGroup": "neck",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:sternocleidomastoid",
+        "center": [
+          286.32,
+          247.68
+        ],
+        "bounds": [
+          266.85,
+          215.59,
+          302.31,
+          267.47
+        ]
+      },
+      {
+        "regionId": "female-front-left-sternocleidomastoid-02",
+        "regionKey": "front-left-sternocleidomastoid-02",
+        "sourceRegionId": "front-muscle-007",
+        "muscleId": "sternocleidomastoid",
+        "muscleName": "Sternocleidomastoid",
+        "muscleGroup": "neck",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:sternocleidomastoid",
+        "center": [
+          343.53,
+          247.51
+        ],
+        "bounds": [
+          327.79,
+          213.94,
+          362.57,
+          266.79
+        ]
+      },
+      {
+        "regionId": "female-front-right-trapezius-01",
+        "regionKey": "front-right-trapezius-01",
+        "sourceRegionId": "front-muscle-008",
+        "muscleId": "trapezius",
+        "muscleName": "Trapezius",
+        "muscleGroup": "upper_back",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": "upper",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:trapezius",
+        "center": [
+          260.38,
+          245.82
+        ],
+        "bounds": [
+          240.52,
+          229.0,
+          276.64,
+          256.58
+        ]
+      },
+      {
+        "regionId": "female-front-left-trapezius-01",
+        "regionKey": "front-left-trapezius-01",
+        "sourceRegionId": "front-muscle-009",
+        "muscleId": "trapezius",
+        "muscleName": "Trapezius",
+        "muscleGroup": "upper_back",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": "upper",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:trapezius",
+        "center": [
+          369.51,
+          246.15
+        ],
+        "bounds": [
+          353.32,
+          230.12,
+          388.78,
+          256.56
+        ]
+      },
+      {
+        "regionId": "female-front-right-anterior_deltoid-01",
+        "regionKey": "front-right-anterior_deltoid-01",
+        "sourceRegionId": "front-muscle-010",
+        "muscleId": "anterior_deltoid",
+        "muscleName": "Anterior deltoid",
+        "muscleGroup": "shoulders",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:anterior_deltoid",
+        "center": [
+          212.43,
+          288.02
+        ],
+        "bounds": [
+          188.24,
+          255.93,
+          244.14,
+          331.72
+        ]
+      },
+      {
+        "regionId": "female-front-left-anterior_deltoid-01",
+        "regionKey": "front-left-anterior_deltoid-01",
+        "sourceRegionId": "front-muscle-011",
+        "muscleId": "anterior_deltoid",
+        "muscleName": "Anterior deltoid",
+        "muscleGroup": "shoulders",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:anterior_deltoid",
+        "center": [
+          417.03,
+          287.98
+        ],
+        "bounds": [
+          385.58,
+          255.82,
+          440.88,
+          332.04
+        ]
+      },
+      {
+        "regionId": "female-front-right-lateral_deltoid-01",
+        "regionKey": "front-right-lateral_deltoid-01",
+        "sourceRegionId": "front-muscle-016",
+        "muscleId": "lateral_deltoid",
+        "muscleName": "Lateral deltoid",
+        "muscleGroup": "shoulders",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:lateral_deltoid",
+        "center": [
+          180.42,
+          303.65
+        ],
+        "bounds": [
+          167.43,
+          261.03,
+          201.09,
+          347.88
+        ]
+      },
+      {
+        "regionId": "female-front-left-lateral_deltoid-01",
+        "regionKey": "front-left-lateral_deltoid-01",
+        "sourceRegionId": "front-muscle-017",
+        "muscleId": "lateral_deltoid",
+        "muscleName": "Lateral deltoid",
+        "muscleGroup": "shoulders",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:lateral_deltoid",
+        "center": [
+          448.57,
+          303.63
+        ],
+        "bounds": [
+          428.42,
+          261.73,
+          461.43,
+          348.29
+        ]
+      },
+      {
+        "regionId": "female-front-right-pectoralis_major-01",
+        "regionKey": "front-right-pectoralis_major-01",
+        "sourceRegionId": "front-muscle-020",
+        "muscleId": "pectoralis_major",
+        "muscleName": "Pectoralis major (chest)",
+        "muscleGroup": "chest",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:pectoralis_major",
+        "center": [
+          268.6,
+          318.78
+        ],
+        "bounds": [
+          218.59,
+          265.65,
+          313.0,
+          368.84
+        ]
+      },
+      {
+        "regionId": "female-front-left-pectoralis_major-01",
+        "regionKey": "front-left-pectoralis_major-01",
+        "sourceRegionId": "front-muscle-021",
+        "muscleId": "pectoralis_major",
+        "muscleName": "Pectoralis major (chest)",
+        "muscleGroup": "chest",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:pectoralis_major",
+        "center": [
+          360.58,
+          318.78
+        ],
+        "bounds": [
+          315.68,
+          265.76,
+          410.23,
+          368.92
+        ]
+      },
+      {
+        "regionId": "female-front-right-biceps_brachii-01",
+        "regionKey": "front-right-biceps_brachii-01",
+        "sourceRegionId": "front-muscle-026",
+        "muscleId": "biceps_brachii",
+        "muscleName": "Biceps brachii",
+        "muscleGroup": "upper_arms",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:biceps_brachii",
+        "center": [
+          186.06,
+          392.12
+        ],
+        "bounds": [
+          160.71,
+          336.54,
+          209.68,
+          445.95
+        ]
+      },
+      {
+        "regionId": "female-front-left-biceps_brachii-01",
+        "regionKey": "front-left-biceps_brachii-01",
+        "sourceRegionId": "front-muscle-027",
+        "muscleId": "biceps_brachii",
+        "muscleName": "Biceps brachii",
+        "muscleGroup": "upper_arms",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:biceps_brachii",
+        "center": [
+          442.75,
+          392.26
+        ],
+        "bounds": [
+          419.33,
+          336.81,
+          468.05,
+          446.6
+        ]
+      },
+      {
+        "regionId": "female-front-right-brachialis-01",
+        "regionKey": "front-right-brachialis-01",
+        "sourceRegionId": "front-muscle-034",
+        "muscleId": "brachialis",
+        "muscleName": "Brachialis",
+        "muscleGroup": "upper_arms",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:brachialis",
+        "center": [
+          163.52,
+          384.46
+        ],
+        "bounds": [
+          156.4,
+          357.85,
+          172.56,
+          415.99
+        ]
+      },
+      {
+        "regionId": "female-front-right-serratus_anterior-01",
+        "regionKey": "front-right-serratus_anterior-01",
+        "sourceRegionId": "front-muscle-035",
+        "muscleId": "serratus_anterior",
+        "muscleName": "Serratus anterior",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:serratus_anterior",
+        "center": [
+          239.17,
+          376.57
+        ],
+        "bounds": [
+          221.64,
+          358.2,
+          257.78,
+          392.41
+        ]
+      },
+      {
+        "regionId": "female-front-left-brachialis-01",
+        "regionKey": "front-left-brachialis-01",
+        "sourceRegionId": "front-muscle-036",
+        "muscleId": "brachialis",
+        "muscleName": "Brachialis",
+        "muscleGroup": "upper_arms",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:brachialis",
+        "center": [
+          465.22,
+          384.53
+        ],
+        "bounds": [
+          455.98,
+          358.17,
+          472.53,
+          416.56
+        ]
+      },
+      {
+        "regionId": "female-front-left-serratus_anterior-01",
+        "regionKey": "front-left-serratus_anterior-01",
+        "sourceRegionId": "front-muscle-037",
+        "muscleId": "serratus_anterior",
+        "muscleName": "Serratus anterior",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:serratus_anterior",
+        "center": [
+          389.54,
+          376.49
+        ],
+        "bounds": [
+          371.14,
+          358.2,
+          407.18,
+          392.36
+        ]
+      },
+      {
+        "regionId": "female-front-right-rectus_abdominis-01",
+        "regionKey": "front-right-rectus_abdominis-01",
+        "sourceRegionId": "front-muscle-038",
+        "muscleId": "rectus_abdominis",
+        "muscleName": "Rectus abdominis (abs)",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": "upper",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:rectus_abdominis",
+        "center": [
+          288.23,
+          389.6
+        ],
+        "bounds": [
+          262.91,
+          366.54,
+          313.19,
+          412.91
+        ]
+      },
+      {
+        "regionId": "female-front-left-rectus_abdominis-01",
+        "regionKey": "front-left-rectus_abdominis-01",
+        "sourceRegionId": "front-muscle-039",
+        "muscleId": "rectus_abdominis",
+        "muscleName": "Rectus abdominis (abs)",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": "upper",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:rectus_abdominis",
+        "center": [
+          340.8,
+          389.58
+        ],
+        "bounds": [
+          316.14,
+          366.86,
+          365.7,
+          412.79
+        ]
+      },
+      {
+        "regionId": "female-front-right-serratus_anterior-02",
+        "regionKey": "front-right-serratus_anterior-02",
+        "sourceRegionId": "front-muscle-040",
+        "muscleId": "serratus_anterior",
+        "muscleName": "Serratus anterior",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:serratus_anterior",
+        "center": [
+          243.97,
+          399.76
+        ],
+        "bounds": [
+          226.02,
+          382.51,
+          260.58,
+          415.83
+        ]
+      },
+      {
+        "regionId": "female-front-left-serratus_anterior-02",
+        "regionKey": "front-left-serratus_anterior-02",
+        "sourceRegionId": "front-muscle-041",
+        "muscleId": "serratus_anterior",
+        "muscleName": "Serratus anterior",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:serratus_anterior",
+        "center": [
+          384.86,
+          399.66
+        ],
+        "bounds": [
+          368.28,
+          382.22,
+          402.67,
+          415.96
+        ]
+      },
+      {
+        "regionId": "female-front-right-serratus_anterior-03",
+        "regionKey": "front-right-serratus_anterior-03",
+        "sourceRegionId": "front-muscle-042",
+        "muscleId": "serratus_anterior",
+        "muscleName": "Serratus anterior",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:serratus_anterior",
+        "center": [
+          248.39,
+          423.83
+        ],
+        "bounds": [
+          232.15,
+          405.69,
+          262.71,
+          440.97
+        ]
+      },
+      {
+        "regionId": "female-front-left-serratus_anterior-03",
+        "regionKey": "front-left-serratus_anterior-03",
+        "sourceRegionId": "front-muscle-043",
+        "muscleId": "serratus_anterior",
+        "muscleName": "Serratus anterior",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:serratus_anterior",
+        "center": [
+          380.45,
+          423.99
+        ],
+        "bounds": [
+          366.07,
+          405.6,
+          396.65,
+          441.51
+        ]
+      },
+      {
+        "regionId": "female-front-right-rectus_abdominis-02",
+        "regionKey": "front-right-rectus_abdominis-02",
+        "sourceRegionId": "front-muscle-044",
+        "muscleId": "rectus_abdominis",
+        "muscleName": "Rectus abdominis (abs)",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": "middle",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:rectus_abdominis",
+        "center": [
+          290.89,
+          430.55
+        ],
+        "bounds": [
+          266.78,
+          407.87,
+          313.22,
+          451.42
+        ]
+      },
+      {
+        "regionId": "female-front-left-rectus_abdominis-02",
+        "regionKey": "front-left-rectus_abdominis-02",
+        "sourceRegionId": "front-muscle-045",
+        "muscleId": "rectus_abdominis",
+        "muscleName": "Rectus abdominis (abs)",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": "middle",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:rectus_abdominis",
+        "center": [
+          338.15,
+          430.59
+        ],
+        "bounds": [
+          315.93,
+          408.03,
+          362.24,
+          451.41
+        ]
+      },
+      {
+        "regionId": "female-front-right-serratus_anterior-04",
+        "regionKey": "front-right-serratus_anterior-04",
+        "sourceRegionId": "front-muscle-052",
+        "muscleId": "serratus_anterior",
+        "muscleName": "Serratus anterior",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": "lower",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:serratus_anterior",
+        "center": [
+          254.12,
+          454.46
+        ],
+        "bounds": [
+          241.31,
+          432.98,
+          265.17,
+          474.53
+        ]
+      },
+      {
+        "regionId": "female-front-left-serratus_anterior-04",
+        "regionKey": "front-left-serratus_anterior-04",
+        "sourceRegionId": "front-muscle-053",
+        "muscleId": "serratus_anterior",
+        "muscleName": "Serratus anterior",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": "lower",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:serratus_anterior",
+        "center": [
+          374.61,
+          454.72
+        ],
+        "bounds": [
+          363.38,
+          432.9,
+          387.4,
+          474.75
+        ]
+      },
+      {
+        "regionId": "female-front-right-forearm_flexors-01",
+        "regionKey": "front-right-forearm_flexors-01",
+        "sourceRegionId": "front-muscle-054",
+        "muscleId": "forearm_flexors",
+        "muscleName": "Forearm flexors",
+        "muscleGroup": "forearms",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:forearm_flexors",
+        "center": [
+          140.58,
+          513.19
+        ],
+        "bounds": [
+          96.76,
+          440.37,
+          181.94,
+          595.11
+        ]
+      },
+      {
+        "regionId": "female-front-left-forearm_flexors-01",
+        "regionKey": "front-left-forearm_flexors-01",
+        "sourceRegionId": "front-muscle-055",
+        "muscleId": "forearm_flexors",
+        "muscleName": "Forearm flexors",
+        "muscleGroup": "forearms",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:forearm_flexors",
+        "center": [
+          488.34,
+          513.12
+        ],
+        "bounds": [
+          447.4,
+          440.47,
+          531.06,
+          594.43
+        ]
+      },
+      {
+        "regionId": "female-front-right-rectus_abdominis-03",
+        "regionKey": "front-right-rectus_abdominis-03",
+        "sourceRegionId": "front-muscle-058",
+        "muscleId": "rectus_abdominis",
+        "muscleName": "Rectus abdominis (abs)",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": "lower",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:rectus_abdominis",
+        "center": [
+          292.35,
+          473.71
+        ],
+        "bounds": [
+          269.81,
+          451.93,
+          313.74,
+          495.31
+        ]
+      },
+      {
+        "regionId": "female-front-left-rectus_abdominis-03",
+        "regionKey": "front-left-rectus_abdominis-03",
+        "sourceRegionId": "front-muscle-059",
+        "muscleId": "rectus_abdominis",
+        "muscleName": "Rectus abdominis (abs)",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": "lower",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:rectus_abdominis",
+        "center": [
+          336.59,
+          473.64
+        ],
+        "bounds": [
+          315.25,
+          451.84,
+          359.29,
+          495.37
+        ]
+      },
+      {
+        "regionId": "female-front-right-external_oblique-02",
+        "regionKey": "front-right-external_oblique-02",
+        "sourceRegionId": "front-muscle-060",
+        "muscleId": "external_oblique",
+        "muscleName": "External oblique",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:external_oblique",
+        "center": [
+          255.01,
+          512.16
+        ],
+        "bounds": [
+          232.44,
+          469.01,
+          277.31,
+          553.37
+        ]
+      },
+      {
+        "regionId": "female-front-left-external_oblique-02",
+        "regionKey": "front-left-external_oblique-02",
+        "sourceRegionId": "front-muscle-061",
+        "muscleId": "external_oblique",
+        "muscleName": "External oblique",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:external_oblique",
+        "center": [
+          373.88,
+          512.32
+        ],
+        "bounds": [
+          351.31,
+          468.8,
+          396.12,
+          553.66
+        ]
+      },
+      {
+        "regionId": "female-front-right-rectus_abdominis-04",
+        "regionKey": "front-right-rectus_abdominis-04",
+        "sourceRegionId": "front-muscle-062",
+        "muscleId": "rectus_abdominis",
+        "muscleName": "Rectus abdominis (abs)",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": "inferior",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:rectus_abdominis",
+        "center": [
+          296.98,
+          535.48
+        ],
+        "bounds": [
+          273.59,
+          496.81,
+          313.91,
+          586.54
+        ]
+      },
+      {
+        "regionId": "female-front-left-rectus_abdominis-04",
+        "regionKey": "front-left-rectus_abdominis-04",
+        "sourceRegionId": "front-muscle-063",
+        "muscleId": "rectus_abdominis",
+        "muscleName": "Rectus abdominis (abs)",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": "inferior",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:rectus_abdominis",
+        "center": [
+          331.97,
+          535.44
+        ],
+        "bounds": [
+          315.08,
+          496.66,
+          355.45,
+          587.38
+        ]
+      },
+      {
+        "regionId": "female-front-right-tensor_fasciae_latae-01",
+        "regionKey": "front-right-tensor_fasciae_latae-01",
+        "sourceRegionId": "front-muscle-066",
+        "muscleId": "tensor_fasciae_latae",
+        "muscleName": "Tensor fasciae latae",
+        "muscleGroup": "hips",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:tensor_fasciae_latae",
+        "center": [
+          220.88,
+          558.45
+        ],
+        "bounds": [
+          203.71,
+          521.51,
+          237.19,
+          600.73
+        ]
+      },
+      {
+        "regionId": "female-front-left-tensor_fasciae_latae-01",
+        "regionKey": "front-left-tensor_fasciae_latae-01",
+        "sourceRegionId": "front-muscle-067",
+        "muscleId": "tensor_fasciae_latae",
+        "muscleName": "Tensor fasciae latae",
+        "muscleGroup": "hips",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:tensor_fasciae_latae",
+        "center": [
+          408.19,
+          558.32
+        ],
+        "bounds": [
+          391.83,
+          521.29,
+          425.28,
+          600.91
+        ]
+      },
+      {
+        "regionId": "female-front-right-hip_adductors-01",
+        "regionKey": "front-right-hip_adductors-01",
+        "sourceRegionId": "front-muscle-070",
+        "muscleId": "hip_adductors",
+        "muscleName": "Hip adductors (inner thigh)",
+        "muscleGroup": "adductors",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:hip_adductors",
+        "center": [
+          281.07,
+          600.1
+        ],
+        "bounds": [
+          245.2,
+          539.45,
+          304.86,
+          663.92
+        ]
+      },
+      {
+        "regionId": "female-front-left-hip_adductors-01",
+        "regionKey": "front-left-hip_adductors-01",
+        "sourceRegionId": "front-muscle-071",
+        "muscleId": "hip_adductors",
+        "muscleName": "Hip adductors (inner thigh)",
+        "muscleGroup": "adductors",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:hip_adductors",
+        "center": [
+          348.11,
+          599.72
+        ],
+        "bounds": [
+          324.19,
+          538.91,
+          384.06,
+          663.39
+        ]
+      },
+      {
+        "regionId": "female-front-right-sartorius-01",
+        "regionKey": "front-right-sartorius-01",
+        "sourceRegionId": "front-muscle-072",
+        "muscleId": "sartorius",
+        "muscleName": "Sartorius",
+        "muscleGroup": "hips",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:sartorius",
+        "center": [
+          263.76,
+          620.84
+        ],
+        "bounds": [
+          239.28,
+          556.94,
+          285.89,
+          682.49
+        ]
+      },
+      {
+        "regionId": "female-front-left-sartorius-01",
+        "regionKey": "front-left-sartorius-01",
+        "sourceRegionId": "front-muscle-073",
+        "muscleId": "sartorius",
+        "muscleName": "Sartorius",
+        "muscleGroup": "hips",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:sartorius",
+        "center": [
+          365.17,
+          620.94
+        ],
+        "bounds": [
+          342.66,
+          556.79,
+          390.11,
+          681.98
+        ]
+      },
+      {
+        "regionId": "female-front-right-rectus_femoris-01",
+        "regionKey": "front-right-rectus_femoris-01",
+        "sourceRegionId": "front-muscle-074",
+        "muscleId": "rectus_femoris",
+        "muscleName": "Rectus femoris",
+        "muscleGroup": "quadriceps",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:rectus_femoris",
+        "center": [
+          240.33,
+          672.5
+        ],
+        "bounds": [
+          212.52,
+          576.43,
+          268.73,
+          766.68
+        ]
+      },
+      {
+        "regionId": "female-front-left-rectus_femoris-01",
+        "regionKey": "front-left-rectus_femoris-01",
+        "sourceRegionId": "front-muscle-075",
+        "muscleId": "rectus_femoris",
+        "muscleName": "Rectus femoris",
+        "muscleGroup": "quadriceps",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:rectus_femoris",
+        "center": [
+          388.52,
+          672.58
+        ],
+        "bounds": [
+          359.78,
+          576.34,
+          416.49,
+          767.34
+        ]
+      },
+      {
+        "regionId": "female-front-right-vastus_lateralis-01",
+        "regionKey": "front-right-vastus_lateralis-01",
+        "sourceRegionId": "front-muscle-076",
+        "muscleId": "vastus_lateralis",
+        "muscleName": "Vastus lateralis",
+        "muscleGroup": "quadriceps",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:vastus_lateralis",
+        "center": [
+          219.04,
+          717.51
+        ],
+        "bounds": [
+          199.21,
+          612.02,
+          245.59,
+          793.84
+        ]
+      },
+      {
+        "regionId": "female-front-left-vastus_lateralis-01",
+        "regionKey": "front-left-vastus_lateralis-01",
+        "sourceRegionId": "front-muscle-077",
+        "muscleId": "vastus_lateralis",
+        "muscleName": "Vastus lateralis",
+        "muscleGroup": "quadriceps",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:vastus_lateralis",
+        "center": [
+          409.97,
+          717.87
+        ],
+        "bounds": [
+          382.93,
+          612.33,
+          429.72,
+          793.49
+        ]
+      },
+      {
+        "regionId": "female-front-right-hip_adductors-02",
+        "regionKey": "front-right-hip_adductors-02",
+        "sourceRegionId": "front-muscle-082",
+        "muscleId": "hip_adductors",
+        "muscleName": "Hip adductors (inner thigh)",
+        "muscleGroup": "adductors",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:hip_adductors",
+        "center": [
+          294.33,
+          696.94
+        ],
+        "bounds": [
+          285.62,
+          661.18,
+          302.55,
+          738.48
+        ]
+      },
+      {
+        "regionId": "female-front-left-hip_adductors-02",
+        "regionKey": "front-left-hip_adductors-02",
+        "sourceRegionId": "front-muscle-083",
+        "muscleId": "hip_adductors",
+        "muscleName": "Hip adductors (inner thigh)",
+        "muscleGroup": "adductors",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:hip_adductors",
+        "center": [
+          334.47,
+          696.87
+        ],
+        "bounds": [
+          326.44,
+          660.67,
+          342.98,
+          737.87
+        ]
+      },
+      {
+        "regionId": "female-front-right-vastus_medialis-01",
+        "regionKey": "front-right-vastus_medialis-01",
+        "sourceRegionId": "front-muscle-088",
+        "muscleId": "vastus_medialis",
+        "muscleName": "Vastus medialis",
+        "muscleGroup": "quadriceps",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:vastus_medialis",
+        "center": [
+          276.64,
+          762.54
+        ],
+        "bounds": [
+          258.04,
+          694.39,
+          293.53,
+          811.52
+        ]
+      },
+      {
+        "regionId": "female-front-left-vastus_medialis-01",
+        "regionKey": "front-left-vastus_medialis-01",
+        "sourceRegionId": "front-muscle-089",
+        "muscleId": "vastus_medialis",
+        "muscleName": "Vastus medialis",
+        "muscleGroup": "quadriceps",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:vastus_medialis",
+        "center": [
+          352.13,
+          762.32
+        ],
+        "bounds": [
+          335.66,
+          694.15,
+          371.13,
+          811.84
+        ]
+      },
+      {
+        "regionId": "female-front-right-patella_region-01",
+        "regionKey": "front-right-patella_region-01",
+        "sourceRegionId": "front-muscle-091",
+        "muscleId": "patella_region",
+        "muscleName": "Patella / front knee",
+        "muscleGroup": "joints",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "joint",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:patella_region",
+        "center": [
+          254.71,
+          841.57
+        ],
+        "bounds": [
+          231.95,
+          809.29,
+          278.72,
+          879.41
+        ]
+      },
+      {
+        "regionId": "female-front-left-patella_region-01",
+        "regionKey": "front-left-patella_region-01",
+        "sourceRegionId": "front-muscle-092",
+        "muscleId": "patella_region",
+        "muscleName": "Patella / front knee",
+        "muscleGroup": "joints",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "joint",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:patella_region",
+        "center": [
+          373.72,
+          841.66
+        ],
+        "bounds": [
+          349.93,
+          809.36,
+          396.36,
+          879.39
+        ]
+      },
+      {
+        "regionId": "female-front-right-patellar_tendon_region-01",
+        "regionKey": "front-right-patellar_tendon_region-01",
+        "sourceRegionId": "front-muscle-098",
+        "muscleId": "patellar_tendon_region",
+        "muscleName": "Patellar tendon / upper shin region",
+        "muscleGroup": "connective_tissue",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "tendon",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:patellar_tendon_region",
+        "center": [
+          264.48,
+          890.42
+        ],
+        "bounds": [
+          253.19,
+          859.72,
+          278.75,
+          921.41
+        ]
+      },
+      {
+        "regionId": "female-front-left-patellar_tendon_region-01",
+        "regionKey": "front-left-patellar_tendon_region-01",
+        "sourceRegionId": "front-muscle-099",
+        "muscleId": "patellar_tendon_region",
+        "muscleName": "Patellar tendon / upper shin region",
+        "muscleGroup": "connective_tissue",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "tendon",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:patellar_tendon_region",
+        "center": [
+          363.79,
+          890.98
+        ],
+        "bounds": [
+          349.72,
+          860.86,
+          374.75,
+          921.23
+        ]
+      },
+      {
+        "regionId": "female-front-right-tibialis_anterior-01",
+        "regionKey": "front-right-tibialis_anterior-01",
+        "sourceRegionId": "front-muscle-100",
+        "muscleId": "tibialis_anterior",
+        "muscleName": "Tibialis anterior",
+        "muscleGroup": "shins",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:tibialis_anterior",
+        "center": [
+          242.53,
+          984.07
+        ],
+        "bounds": [
+          224.52,
+          864.86,
+          269.7,
+          1102.43
+        ]
+      },
+      {
+        "regionId": "female-front-left-tibialis_anterior-01",
+        "regionKey": "front-left-tibialis_anterior-01",
+        "sourceRegionId": "front-muscle-101",
+        "muscleId": "tibialis_anterior",
+        "muscleName": "Tibialis anterior",
+        "muscleGroup": "shins",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:tibialis_anterior",
+        "center": [
+          384.93,
+          983.87
+        ],
+        "bounds": [
+          356.84,
+          864.76,
+          403.45,
+          1102.67
+        ]
+      },
+      {
+        "regionId": "female-front-right-fibularis_group-01",
+        "regionKey": "front-right-fibularis_group-01",
+        "sourceRegionId": "front-muscle-102",
+        "muscleId": "fibularis_group",
+        "muscleName": "Fibularis (peroneal) group",
+        "muscleGroup": "shins",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:fibularis_group",
+        "center": [
+          218.91,
+          938.75
+        ],
+        "bounds": [
+          210.62,
+          885.48,
+          227.76,
+          993.7
+        ]
+      },
+      {
+        "regionId": "female-front-left-fibularis_group-01",
+        "regionKey": "front-left-fibularis_group-01",
+        "sourceRegionId": "front-muscle-103",
+        "muscleId": "fibularis_group",
+        "muscleName": "Fibularis (peroneal) group",
+        "muscleGroup": "shins",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:fibularis_group",
+        "center": [
+          409.07,
+          938.95
+        ],
+        "bounds": [
+          399.85,
+          884.89,
+          417.68,
+          993.3
+        ]
+      },
+      {
+        "regionId": "female-front-left-gastrocnemius-02",
+        "regionKey": "front-left-gastrocnemius-02",
+        "sourceRegionId": "front-muscle-104",
+        "muscleId": "gastrocnemius",
+        "muscleName": "Gastrocnemius",
+        "muscleGroup": "calves",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": "anterior_projection",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:gastrocnemius",
+        "center": [
+          353.49,
+          936.34
+        ],
+        "bounds": [
+          339.28,
+          886.08,
+          367.73,
+          980.32
+        ]
+      },
+      {
+        "regionId": "female-front-right-gastrocnemius-02",
+        "regionKey": "front-right-gastrocnemius-02",
+        "sourceRegionId": "front-muscle-105",
+        "muscleId": "gastrocnemius",
+        "muscleName": "Gastrocnemius",
+        "muscleGroup": "calves",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": "anterior_projection",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:gastrocnemius",
+        "center": [
+          274.62,
+          936.31
+        ],
+        "bounds": [
+          260.18,
+          886.35,
+          289.18,
+          980.12
+        ]
+      },
+      {
+        "regionId": "female-front-right-soleus-01",
+        "regionKey": "front-right-soleus-01",
+        "sourceRegionId": "front-muscle-110",
+        "muscleId": "soleus",
+        "muscleName": "Soleus",
+        "muscleGroup": "calves",
+        "side": "right",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:soleus",
+        "center": [
+          263.22,
+          1018.41
+        ],
+        "bounds": [
+          256.69,
+          988.17,
+          272.42,
+          1065.83
+        ]
+      },
+      {
+        "regionId": "female-front-left-soleus-01",
+        "regionKey": "front-left-soleus-01",
+        "sourceRegionId": "front-muscle-111",
+        "muscleId": "soleus",
+        "muscleName": "Soleus",
+        "muscleGroup": "calves",
+        "side": "left",
+        "view": "front",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:soleus",
+        "center": [
+          364.06,
+          1018.81
+        ],
+        "bounds": [
+          354.41,
+          987.92,
+          370.55,
+          1066.22
+        ]
+      },
+      {
+        "regionId": "female-rear-right-trapezius-01",
+        "regionKey": "rear-right-trapezius-01",
+        "sourceRegionId": "rear-muscle-002",
+        "muscleId": "trapezius",
+        "muscleName": "Trapezius",
+        "muscleGroup": "upper_back",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": "upper",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:trapezius",
+        "center": [
+          961.23,
+          230.07
+        ],
+        "bounds": [
+          937.14,
+          177.74,
+          1011.59,
+          261.82
+        ]
+      },
+      {
+        "regionId": "female-rear-left-trapezius-01",
+        "regionKey": "rear-left-trapezius-01",
+        "sourceRegionId": "rear-muscle-003",
+        "muscleId": "trapezius",
+        "muscleName": "Trapezius",
+        "muscleGroup": "upper_back",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": "upper",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:trapezius",
+        "center": [
+          910.15,
+          229.95
+        ],
+        "bounds": [
+          859.33,
+          177.85,
+          934.51,
+          261.61
+        ]
+      },
+      {
+        "regionId": "female-rear-left-trapezius-03",
+        "regionKey": "rear-left-trapezius-03",
+        "sourceRegionId": "rear-muscle-012",
+        "muscleId": "trapezius",
+        "muscleName": "Trapezius",
+        "muscleGroup": "upper_back",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": "upper_lateral",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:trapezius",
+        "center": [
+          831.67,
+          263.58
+        ],
+        "bounds": [
+          821.14,
+          257.16,
+          841.57,
+          269.77
+        ]
+      },
+      {
+        "regionId": "female-rear-right-trapezius-03",
+        "regionKey": "rear-right-trapezius-03",
+        "sourceRegionId": "rear-muscle-013",
+        "muscleId": "trapezius",
+        "muscleName": "Trapezius",
+        "muscleGroup": "upper_back",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": "upper_lateral",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:trapezius",
+        "center": [
+          1039.53,
+          263.67
+        ],
+        "bounds": [
+          1029.55,
+          257.31,
+          1049.98,
+          269.97
+        ]
+      },
+      {
+        "regionId": "female-rear-left-trapezius-02",
+        "regionKey": "rear-left-trapezius-02",
+        "sourceRegionId": "rear-muscle-014",
+        "muscleId": "trapezius",
+        "muscleName": "Trapezius",
+        "muscleGroup": "upper_back",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": "middle_lower",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:trapezius",
+        "center": [
+          903.22,
+          313.57
+        ],
+        "bounds": [
+          843.62,
+          257.96,
+          932.82,
+          409.79
+        ]
+      },
+      {
+        "regionId": "female-rear-right-trapezius-02",
+        "regionKey": "rear-right-trapezius-02",
+        "sourceRegionId": "rear-muscle-015",
+        "muscleId": "trapezius",
+        "muscleName": "Trapezius",
+        "muscleGroup": "upper_back",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": "middle_lower",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:trapezius",
+        "center": [
+          968.04,
+          313.67
+        ],
+        "bounds": [
+          938.15,
+          258.18,
+          1026.96,
+          409.38
+        ]
+      },
+      {
+        "regionId": "female-rear-left-lateral_deltoid-01",
+        "regionKey": "rear-left-lateral_deltoid-01",
+        "sourceRegionId": "rear-muscle-018",
+        "muscleId": "lateral_deltoid",
+        "muscleName": "Lateral deltoid",
+        "muscleGroup": "shoulders",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:lateral_deltoid",
+        "center": [
+          797.1,
+          306.3
+        ],
+        "bounds": [
+          784.46,
+          263.71,
+          815.57,
+          347.71
+        ]
+      },
+      {
+        "regionId": "female-rear-right-lateral_deltoid-01",
+        "regionKey": "rear-right-lateral_deltoid-01",
+        "sourceRegionId": "rear-muscle-019",
+        "muscleId": "lateral_deltoid",
+        "muscleName": "Lateral deltoid",
+        "muscleGroup": "shoulders",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:lateral_deltoid",
+        "center": [
+          1073.34,
+          306.19
+        ],
+        "bounds": [
+          1055.4,
+          263.47,
+          1085.6,
+          347.67
+        ]
+      },
+      {
+        "regionId": "female-rear-left-posterior_deltoid-02",
+        "regionKey": "rear-left-posterior_deltoid-02",
+        "sourceRegionId": "rear-muscle-022",
+        "muscleId": "posterior_deltoid",
+        "muscleName": "Posterior deltoid",
+        "muscleGroup": "shoulders",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:posterior_deltoid",
+        "center": [
+          826.05,
+          298.91
+        ],
+        "bounds": [
+          806.18,
+          271.23,
+          850.17,
+          331.65
+        ]
+      },
+      {
+        "regionId": "female-rear-right-posterior_deltoid-02",
+        "regionKey": "rear-right-posterior_deltoid-02",
+        "sourceRegionId": "rear-muscle-023",
+        "muscleId": "posterior_deltoid",
+        "muscleName": "Posterior deltoid",
+        "muscleGroup": "shoulders",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:posterior_deltoid",
+        "center": [
+          1045.09,
+          298.95
+        ],
+        "bounds": [
+          1021.29,
+          271.54,
+          1064.84,
+          331.38
+        ]
+      },
+      {
+        "regionId": "female-rear-left-posterior_rotator_cuff-01",
+        "regionKey": "rear-left-posterior_rotator_cuff-01",
+        "sourceRegionId": "rear-muscle-024",
+        "muscleId": "posterior_rotator_cuff",
+        "muscleName": "Posterior rotator cuff",
+        "muscleGroup": "upper_back",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:posterior_rotator_cuff",
+        "center": [
+          860.51,
+          325.27
+        ],
+        "bounds": [
+          831.31,
+          293.22,
+          884.4,
+          351.41
+        ]
+      },
+      {
+        "regionId": "female-rear-right-posterior_rotator_cuff-01",
+        "regionKey": "rear-right-posterior_rotator_cuff-01",
+        "sourceRegionId": "rear-muscle-025",
+        "muscleId": "posterior_rotator_cuff",
+        "muscleName": "Posterior rotator cuff",
+        "muscleGroup": "upper_back",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:posterior_rotator_cuff",
+        "center": [
+          1010.69,
+          325.4
+        ],
+        "bounds": [
+          986.36,
+          293.03,
+          1039.29,
+          351.5
+        ]
+      },
+      {
+        "regionId": "female-rear-left-triceps_brachii-01",
+        "regionKey": "rear-left-triceps_brachii-01",
+        "sourceRegionId": "rear-muscle-028",
+        "muscleId": "triceps_brachii",
+        "muscleName": "Triceps brachii",
+        "muscleGroup": "upper_arms",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:triceps_brachii",
+        "center": [
+          812.46,
+          384.3
+        ],
+        "bounds": [
+          797.02,
+          338.7,
+          828.33,
+          429.68
+        ]
+      },
+      {
+        "regionId": "female-rear-right-triceps_brachii-01",
+        "regionKey": "rear-right-triceps_brachii-01",
+        "sourceRegionId": "rear-muscle-029",
+        "muscleId": "triceps_brachii",
+        "muscleName": "Triceps brachii",
+        "muscleGroup": "upper_arms",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:triceps_brachii",
+        "center": [
+          1058.14,
+          384.52
+        ],
+        "bounds": [
+          1042.47,
+          338.54,
+          1073.52,
+          429.37
+        ]
+      },
+      {
+        "regionId": "female-rear-left-latissimus_dorsi-01",
+        "regionKey": "rear-left-latissimus_dorsi-01",
+        "sourceRegionId": "rear-muscle-030",
+        "muscleId": "latissimus_dorsi",
+        "muscleName": "Latissimus dorsi (lats)",
+        "muscleGroup": "upper_back",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:latissimus_dorsi",
+        "center": [
+          878.26,
+          396.33
+        ],
+        "bounds": [
+          832.34,
+          340.08,
+          917.87,
+          459.19
+        ]
+      },
+      {
+        "regionId": "female-rear-right-latissimus_dorsi-01",
+        "regionKey": "rear-right-latissimus_dorsi-01",
+        "sourceRegionId": "rear-muscle-031",
+        "muscleId": "latissimus_dorsi",
+        "muscleName": "Latissimus dorsi (lats)",
+        "muscleGroup": "upper_back",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:latissimus_dorsi",
+        "center": [
+          992.83,
+          396.34
+        ],
+        "bounds": [
+          953.55,
+          340.48,
+          1038.8,
+          459.05
+        ]
+      },
+      {
+        "regionId": "female-rear-left-triceps_brachii-02",
+        "regionKey": "rear-left-triceps_brachii-02",
+        "sourceRegionId": "rear-muscle-032",
+        "muscleId": "triceps_brachii",
+        "muscleName": "Triceps brachii",
+        "muscleGroup": "upper_arms",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:triceps_brachii",
+        "center": [
+          787.45,
+          382.91
+        ],
+        "bounds": [
+          774.16,
+          347.41,
+          802.6,
+          416.73
+        ]
+      },
+      {
+        "regionId": "female-rear-right-triceps_brachii-02",
+        "regionKey": "rear-right-triceps_brachii-02",
+        "sourceRegionId": "rear-muscle-033",
+        "muscleId": "triceps_brachii",
+        "muscleName": "Triceps brachii",
+        "muscleGroup": "upper_arms",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:triceps_brachii",
+        "center": [
+          1082.81,
+          382.94
+        ],
+        "bounds": [
+          1068.09,
+          348.0,
+          1095.82,
+          416.18
+        ]
+      },
+      {
+        "regionId": "female-rear-left-triceps_brachii-03",
+        "regionKey": "rear-left-triceps_brachii-03",
+        "sourceRegionId": "rear-muscle-046",
+        "muscleId": "triceps_brachii",
+        "muscleName": "Triceps brachii",
+        "muscleGroup": "upper_arms",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:triceps_brachii",
+        "center": [
+          787.38,
+          440.44
+        ],
+        "bounds": [
+          775.82,
+          409.3,
+          799.42,
+          470.57
+        ]
+      },
+      {
+        "regionId": "female-rear-right-triceps_brachii-03",
+        "regionKey": "rear-right-triceps_brachii-03",
+        "sourceRegionId": "rear-muscle-047",
+        "muscleId": "triceps_brachii",
+        "muscleName": "Triceps brachii",
+        "muscleGroup": "upper_arms",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:triceps_brachii",
+        "center": [
+          1083.15,
+          440.56
+        ],
+        "bounds": [
+          1071.42,
+          409.38,
+          1094.5,
+          470.91
+        ]
+      },
+      {
+        "regionId": "female-rear-left-erector_spinae-01",
+        "regionKey": "rear-left-erector_spinae-01",
+        "sourceRegionId": "rear-muscle-048",
+        "muscleId": "erector_spinae",
+        "muscleName": "Erector spinae / lower back",
+        "muscleGroup": "lower_back",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:erector_spinae",
+        "center": [
+          916.51,
+          485.15
+        ],
+        "bounds": [
+          893.3,
+          423.22,
+          932.87,
+          545.14
+        ]
+      },
+      {
+        "regionId": "female-rear-right-erector_spinae-01",
+        "regionKey": "rear-right-erector_spinae-01",
+        "sourceRegionId": "rear-muscle-049",
+        "muscleId": "erector_spinae",
+        "muscleName": "Erector spinae / lower back",
+        "muscleGroup": "lower_back",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:erector_spinae",
+        "center": [
+          954.62,
+          485.05
+        ],
+        "bounds": [
+          938.17,
+          422.83,
+          978.14,
+          545.17
+        ]
+      },
+      {
+        "regionId": "female-rear-left-external_oblique-01",
+        "regionKey": "rear-left-external_oblique-01",
+        "sourceRegionId": "rear-muscle-050",
+        "muscleId": "external_oblique",
+        "muscleName": "External oblique",
+        "muscleGroup": "core",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:external_oblique",
+        "center": [
+          875.45,
+          474.86
+        ],
+        "bounds": [
+          861.12,
+          431.84,
+          890.82,
+          502.76
+        ]
+      },
+      {
+        "regionId": "female-rear-right-external_oblique-01",
+        "regionKey": "rear-right-external_oblique-01",
+        "sourceRegionId": "rear-muscle-051",
+        "muscleId": "external_oblique",
+        "muscleName": "External oblique",
+        "muscleGroup": "core",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:external_oblique",
+        "center": [
+          995.8,
+          474.93
+        ],
+        "bounds": [
+          980.28,
+          431.17,
+          1010.33,
+          502.75
+        ]
+      },
+      {
+        "regionId": "female-rear-right-forearm_extensors-01",
+        "regionKey": "rear-right-forearm_extensors-01",
+        "sourceRegionId": "rear-muscle-056",
+        "muscleId": "forearm_extensors",
+        "muscleName": "Forearm extensors",
+        "muscleGroup": "forearms",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:forearm_extensors",
+        "center": [
+          1114.17,
+          518.15
+        ],
+        "bounds": [
+          1071.67,
+          442.85,
+          1154.57,
+          594.52
+        ]
+      },
+      {
+        "regionId": "female-rear-left-forearm_extensors-01",
+        "regionKey": "rear-left-forearm_extensors-01",
+        "sourceRegionId": "rear-muscle-057",
+        "muscleId": "forearm_extensors",
+        "muscleName": "Forearm extensors",
+        "muscleGroup": "forearms",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:forearm_extensors",
+        "center": [
+          757.13,
+          518.12
+        ],
+        "bounds": [
+          717.5,
+          443.26,
+          798.58,
+          594.83
+        ]
+      },
+      {
+        "regionId": "female-rear-left-gluteus_medius-01",
+        "regionKey": "rear-left-gluteus_medius-01",
+        "sourceRegionId": "rear-muscle-064",
+        "muscleId": "gluteus_medius",
+        "muscleName": "Gluteus medius",
+        "muscleGroup": "glutes",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:gluteus_medius",
+        "center": [
+          858.22,
+          535.35
+        ],
+        "bounds": [
+          826.43,
+          504.03,
+          895.96,
+          595.59
+        ]
+      },
+      {
+        "regionId": "female-rear-right-gluteus_medius-01",
+        "regionKey": "rear-right-gluteus_medius-01",
+        "sourceRegionId": "rear-muscle-065",
+        "muscleId": "gluteus_medius",
+        "muscleName": "Gluteus medius",
+        "muscleGroup": "glutes",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:gluteus_medius",
+        "center": [
+          1013.09,
+          535.2
+        ],
+        "bounds": [
+          975.42,
+          504.01,
+          1044.64,
+          594.41
+        ]
+      },
+      {
+        "regionId": "female-rear-right-gluteus_maximus-01",
+        "regionKey": "rear-right-gluteus_maximus-01",
+        "sourceRegionId": "rear-muscle-068",
+        "muscleId": "gluteus_maximus",
+        "muscleName": "Gluteus maximus",
+        "muscleGroup": "glutes",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:gluteus_maximus",
+        "center": [
+          985.48,
+          593.69
+        ],
+        "bounds": [
+          936.38,
+          531.97,
+          1036.69,
+          651.98
+        ]
+      },
+      {
+        "regionId": "female-rear-left-gluteus_maximus-01",
+        "regionKey": "rear-left-gluteus_maximus-01",
+        "sourceRegionId": "rear-muscle-069",
+        "muscleId": "gluteus_maximus",
+        "muscleName": "Gluteus maximus",
+        "muscleGroup": "glutes",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:gluteus_maximus",
+        "center": [
+          885.87,
+          593.69
+        ],
+        "bounds": [
+          834.8,
+          531.99,
+          934.68,
+          652.01
+        ]
+      },
+      {
+        "regionId": "female-rear-left-iliotibial_tract-01",
+        "regionKey": "rear-left-iliotibial_tract-01",
+        "sourceRegionId": "rear-muscle-078",
+        "muscleId": "iliotibial_tract",
+        "muscleName": "Iliotibial band region",
+        "muscleGroup": "connective_tissue",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "fascia",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:iliotibial_tract",
+        "center": [
+          833.88,
+          671.72
+        ],
+        "bounds": [
+          819.7,
+          615.2,
+          850.82,
+          743.44
+        ]
+      },
+      {
+        "regionId": "female-rear-right-iliotibial_tract-01",
+        "regionKey": "rear-right-iliotibial_tract-01",
+        "sourceRegionId": "rear-muscle-079",
+        "muscleId": "iliotibial_tract",
+        "muscleName": "Iliotibial band region",
+        "muscleGroup": "connective_tissue",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "fascia",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:iliotibial_tract",
+        "center": [
+          1038.23,
+          671.58
+        ],
+        "bounds": [
+          1021.18,
+          616.26,
+          1052.49,
+          742.12
+        ]
+      },
+      {
+        "regionId": "female-rear-left-hip_adductors-01",
+        "regionKey": "rear-left-hip_adductors-01",
+        "sourceRegionId": "rear-muscle-080",
+        "muscleId": "hip_adductors",
+        "muscleName": "Hip adductors (inner thigh)",
+        "muscleGroup": "adductors",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:hip_adductors",
+        "center": [
+          902.72,
+          695.33
+        ],
+        "bounds": [
+          876.43,
+          652.05,
+          923.45,
+          755.92
+        ]
+      },
+      {
+        "regionId": "female-rear-right-hip_adductors-01",
+        "regionKey": "rear-right-hip_adductors-01",
+        "sourceRegionId": "rear-muscle-081",
+        "muscleId": "hip_adductors",
+        "muscleName": "Hip adductors (inner thigh)",
+        "muscleGroup": "adductors",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:hip_adductors",
+        "center": [
+          969.12,
+          695.38
+        ],
+        "bounds": [
+          948.34,
+          652.18,
+          996.18,
+          755.56
+        ]
+      },
+      {
+        "regionId": "female-rear-left-biceps_femoris-01",
+        "regionKey": "rear-left-biceps_femoris-01",
+        "sourceRegionId": "rear-muscle-084",
+        "muscleId": "biceps_femoris",
+        "muscleName": "Biceps femoris",
+        "muscleGroup": "hamstrings",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:biceps_femoris",
+        "center": [
+          858.28,
+          742.71
+        ],
+        "bounds": [
+          841.15,
+          660.48,
+          873.7,
+          842.01
+        ]
+      },
+      {
+        "regionId": "female-rear-right-biceps_femoris-01",
+        "regionKey": "rear-right-biceps_femoris-01",
+        "sourceRegionId": "rear-muscle-085",
+        "muscleId": "biceps_femoris",
+        "muscleName": "Biceps femoris",
+        "muscleGroup": "hamstrings",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:biceps_femoris",
+        "center": [
+          1013.86,
+          742.04
+        ],
+        "bounds": [
+          998.99,
+          660.63,
+          1030.76,
+          840.71
+        ]
+      },
+      {
+        "regionId": "female-rear-left-medial_hamstrings-01",
+        "regionKey": "rear-left-medial_hamstrings-01",
+        "sourceRegionId": "rear-muscle-086",
+        "muscleId": "medial_hamstrings",
+        "muscleName": "Medial hamstrings",
+        "muscleGroup": "hamstrings",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:medial_hamstrings",
+        "center": [
+          889.66,
+          776.63
+        ],
+        "bounds": [
+          873.34,
+          693.38,
+          907.55,
+          845.8
+        ]
+      },
+      {
+        "regionId": "female-rear-right-medial_hamstrings-01",
+        "regionKey": "rear-right-medial_hamstrings-01",
+        "sourceRegionId": "rear-muscle-087",
+        "muscleId": "medial_hamstrings",
+        "muscleName": "Medial hamstrings",
+        "muscleGroup": "hamstrings",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle_group",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:medial_hamstrings",
+        "center": [
+          982.13,
+          776.65
+        ],
+        "bounds": [
+          963.68,
+          694.18,
+          998.74,
+          845.66
+        ]
+      },
+      {
+        "regionId": "female-rear-right-popliteal_region-01",
+        "regionKey": "rear-right-popliteal_region-01",
+        "sourceRegionId": "rear-muscle-090",
+        "muscleId": "popliteal_region",
+        "muscleName": "Back of knee (popliteal region)",
+        "muscleGroup": "joints",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "joint",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:popliteal_region",
+        "center": [
+          998.12,
+          834.42
+        ],
+        "bounds": [
+          989.04,
+          810.83,
+          1006.84,
+          858.67
+        ]
+      },
+      {
+        "regionId": "female-rear-left-popliteal_region-01",
+        "regionKey": "rear-left-popliteal_region-01",
+        "sourceRegionId": "rear-muscle-093",
+        "muscleId": "popliteal_region",
+        "muscleName": "Back of knee (popliteal region)",
+        "muscleGroup": "joints",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "joint",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:popliteal_region",
+        "center": [
+          873.6,
+          834.38
+        ],
+        "bounds": [
+          864.9,
+          811.51,
+          882.66,
+          857.68
+        ]
+      },
+      {
+        "regionId": "female-rear-left-gastrocnemius-01",
+        "regionKey": "rear-left-gastrocnemius-01",
+        "sourceRegionId": "rear-muscle-094",
+        "muscleId": "gastrocnemius",
+        "muscleName": "Gastrocnemius",
+        "muscleGroup": "calves",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": "lateral_head",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:gastrocnemius",
+        "center": [
+          853.42,
+          915.45
+        ],
+        "bounds": [
+          831.27,
+          849.44,
+          871.52,
+          969.96
+        ]
+      },
+      {
+        "regionId": "female-rear-right-gastrocnemius-01",
+        "regionKey": "rear-right-gastrocnemius-01",
+        "sourceRegionId": "rear-muscle-095",
+        "muscleId": "gastrocnemius",
+        "muscleName": "Gastrocnemius",
+        "muscleGroup": "calves",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": "lateral_head",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:gastrocnemius",
+        "center": [
+          1018.04,
+          915.26
+        ],
+        "bounds": [
+          1000.46,
+          849.18,
+          1039.95,
+          969.94
+        ]
+      },
+      {
+        "regionId": "female-rear-left-gastrocnemius-02",
+        "regionKey": "rear-left-gastrocnemius-02",
+        "sourceRegionId": "rear-muscle-096",
+        "muscleId": "gastrocnemius",
+        "muscleName": "Gastrocnemius",
+        "muscleGroup": "calves",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": "medial_head",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:gastrocnemius",
+        "center": [
+          889.36,
+          918.48
+        ],
+        "bounds": [
+          873.09,
+          850.49,
+          908.3,
+          973.56
+        ]
+      },
+      {
+        "regionId": "female-rear-right-gastrocnemius-02",
+        "regionKey": "rear-right-gastrocnemius-02",
+        "sourceRegionId": "rear-muscle-097",
+        "muscleId": "gastrocnemius",
+        "muscleName": "Gastrocnemius",
+        "muscleGroup": "calves",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": "medial_head",
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:gastrocnemius",
+        "center": [
+          981.93,
+          918.4
+        ],
+        "bounds": [
+          962.91,
+          851.1,
+          997.93,
+          973.5
+        ]
+      },
+      {
+        "regionId": "female-rear-left-soleus-01",
+        "regionKey": "rear-left-soleus-01",
+        "sourceRegionId": "rear-muscle-106",
+        "muscleId": "soleus",
+        "muscleName": "Soleus",
+        "muscleGroup": "calves",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:soleus",
+        "center": [
+          855.32,
+          1035.13
+        ],
+        "bounds": [
+          839.18,
+          972.81,
+          864.65,
+          1110.0
+        ]
+      },
+      {
+        "regionId": "female-rear-left-achilles_tendon-01",
+        "regionKey": "rear-left-achilles_tendon-01",
+        "sourceRegionId": "rear-muscle-107",
+        "muscleId": "achilles_tendon",
+        "muscleName": "Achilles tendon region",
+        "muscleGroup": "connective_tissue",
+        "side": "left",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "tendon",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "left:achilles_tendon",
+        "center": [
+          874.35,
+          1031.69
+        ],
+        "bounds": [
+          856.16,
+          969.9,
+          889.14,
+          1113.53
+        ]
+      },
+      {
+        "regionId": "female-rear-right-achilles_tendon-01",
+        "regionKey": "rear-right-achilles_tendon-01",
+        "sourceRegionId": "rear-muscle-108",
+        "muscleId": "achilles_tendon",
+        "muscleName": "Achilles tendon region",
+        "muscleGroup": "connective_tissue",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "tendon",
+        "selectable": false,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:achilles_tendon",
+        "center": [
+          996.42,
+          1032.4
+        ],
+        "bounds": [
+          981.98,
+          970.12,
+          1015.08,
+          1114.34
+        ]
+      },
+      {
+        "regionId": "female-rear-right-soleus-01",
+        "regionKey": "rear-right-soleus-01",
+        "sourceRegionId": "rear-muscle-109",
+        "muscleId": "soleus",
+        "muscleName": "Soleus",
+        "muscleGroup": "calves",
+        "side": "right",
+        "view": "rear",
+        "sex": "female",
+        "subregion": null,
+        "kind": "muscle",
+        "selectable": true,
+        "mappingPrecision": "schematic_region",
+        "selectionKey": "right:soleus",
+        "center": [
+          1015.42,
+          1035.59
+        ],
+        "bounds": [
+          1005.68,
+          972.98,
+          1031.75,
+          1109.44
+        ]
+      }
+    ]
+  }
+}
