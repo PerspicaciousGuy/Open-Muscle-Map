@@ -25,3 +25,7 @@ The React guide used a default import of `muscle-map.js`, which has no ES export
 ## 2026-10-17: v1.1.0 transparent background
 
 The background rectangle in both SVGs, the `background` field in both `*-map-data.json` files (`"none"`), the React Native default and the WebView pages' body are now transparent instead of `#fdfdfd`. Apps that relied on the white backdrop must set one: `[data-background] { fill: ... }` in CSS, `backgroundColor` in React Native, or a background on the WebView.
+
+## 2026-10-17: site restyle
+
+The demo site drops component borders (cards, buttons, inputs, code boxes, tags, table) in favour of soft shadows, in both themes.
